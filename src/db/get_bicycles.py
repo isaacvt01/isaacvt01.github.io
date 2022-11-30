@@ -1,10 +1,11 @@
 import pymongo
 
 def get_bicycles():
+    import os
     # Declaramos una variable con el tiempo de espera máximo para la respuesta del servidor
     mongo_timeout = 5000
     # Variable que contiene un string con la URI de conexión al cluster
-    mongo_uri = 'mongodb+srv://manuortdaw17:fpsuperiordaw2022@cluster0.jmkzwwg.mongodb.net/test'
+    mongo_uri = os.environ['MONGO_URI']
     # Esta variable contiene un string con la base de datos que vamos a utilizar
     mongo_db = "proyecto_bicicletas"
     # Esta variable contiene la colección que vamos a utilizar
