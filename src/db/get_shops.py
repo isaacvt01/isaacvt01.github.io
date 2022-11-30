@@ -4,7 +4,7 @@ def get_shops():
     import os
     # Declaramos una variable con el tiempo de espera máximo para la respuesta del servidor
     mongo_timeout = 5000
-    # Variable que contiene un string con la URI de conexión al cluster
+    # Variable de entorno que contiene un string con la URI de conexión al cluster
     mongo_uri = os.environ['MONGO_URI']
     # Esta variable contiene un string con la base de datos que vamos a utilizar
     mongo_db = "proyecto_bicicletas"
