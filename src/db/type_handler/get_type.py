@@ -1,19 +1,19 @@
 from src.db.get_bicycles import get_bicycles
 
-def get_brand_mbc_timemachine():
+def get_type(type):
 
     #  Cogemos la conexion a las bicis
-    bikes_collection = get_bicycles()
-    # Creamos la query para sacar la marca BMC TIMEMACHINE
-    query_results = bikes_collection.find({"bicycle brand": "BMC TIMEMACHINE"})
+    bicycles_collection = get_bicycles()
+    # Creamos la query para sacar el tipo aero
+    query_result = bicycles_collection.find({"bicycle type":type})
 
 
-    data_bmc_timemachine = []
-    for document in query_results:
+    data = []
+    for document in query_result:
         #  Creamos el tipo de archivo que queremos que nos saque para el link a la página de detalles
         file_name = document['model'].replace(' ', '-') + str(document['_id'])
         #  Añadimos los datos que vamos a queres sacar de la coleccion bicicletas
-        data_bmc_timemachine.append(
+        data.append(
             {
                 "id": str(document['_id']),
                 "model": document['model'],
@@ -26,5 +26,5 @@ def get_brand_mbc_timemachine():
             }
         )
 
-    return data_bmc_timemachine
+    return data
 
