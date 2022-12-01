@@ -14,11 +14,11 @@ def get_bicycles_data():
                 "id": str(document['_id']),
                 "model": document['model'],
                 "bicycle brand": document['bicycle brand'],
-                "image": "/assets/images/bicicleta.webp",
+                "image": "../assets/images/bicicleta.webp",
                 "details_link": "details/" + file_name + ".html",
                 "description": document["description"],
                 "specifications": document["specifications"]
             }
         )
 
-        return bicycles_data
+    return bicycles_data

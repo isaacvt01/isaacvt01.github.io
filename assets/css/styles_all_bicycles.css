@@ -1,0 +1,83 @@
+/* Página todas las bicicletas */
+
+body{
+	height: auto;
+	background-color: #FCFCFC;
+}
+
+section {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+  border-radius: 2px;
+  margin-top: 20px;
+
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s;
+	margin: 10px;
+}
+
+.details:hover{
+  transform: scale(1.1);
+  border: solid 1px #d0d0d0;
+}
+
+
+.imagen_main{
+  width: 300px ;
+  height: 250px;
+  object-fit: contain;
+}
+
+/* Header styles */
+*{padding: 0; margin: 0; box-sizing: border-box;}
+header {
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+}
+header .overlay{
+	width: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+
+}
+
+.overlay {
+	border-radius: 0 0 20% 20% / 30%;
+	background-image:url(/bicycles-project/assets/images/image_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
