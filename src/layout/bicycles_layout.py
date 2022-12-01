@@ -3,7 +3,7 @@ def create_bicycles_layout(html_content):
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
-                  <link rel="stylesheet" type="text/css" href="/assets/css/styles_all_bicycles.css">
+                  <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
                   <title> Main Page </title>
               </head>
               <body>
