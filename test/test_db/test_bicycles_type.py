@@ -1,27 +1,24 @@
-from src.db.get_aero_type import get_aero_type
-from src.db.get_sport_type import get_sport_type
-from src.db.get_trail_type import get_trail_type
-from src.db.get_tipo_triatlon import get_triatlon_type
-from src.db.get_racing_type import get_type_racing
+
+from src.db.type_handler.get_type import get_type
 
 def test_racing():
-    for document in get_type_racing():
+    for document in get_type('Racing'):
         assert document['bicycle type'] == 'Racing'
 
-def test_triatlon():
-    for document in get_triatlon_type():
-        assert document['bicycle type'] == 'Triatlon'
-
 def test_sport():
-    for document in get_sport_type():
+    for document in get_type('Sport'):
         assert document['bicycle type'] == 'Sport'
 
-def test_trail():
-    for document in get_trail_type():
-        assert document['bicycle type'] == 'Trail'
-
 def test_aero():
-    for document in get_aero_type():
+    for document in get_type('Aero'):
         assert document['bicycle type'] == 'Aero'
+
+def test_triatlon():
+    for document in get_type('Triatlon'):
+        assert document['bicycle type'] == 'Triatlon'
+
+def test_triatlon():
+    for document in get_type('Trail'):
+        assert document['bicycle type'] == 'Trail'
 
 
