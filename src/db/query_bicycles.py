@@ -21,4 +21,4 @@ def get_bicycles_data():
             }
         )
 
-        return bicycles_data
+    return bicycles_data
