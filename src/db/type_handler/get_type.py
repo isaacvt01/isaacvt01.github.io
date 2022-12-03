@@ -17,7 +17,7 @@ def get_type(type):
             {
                 "id": str(document['_id']),
                 "model": document['model'],
-                "bicycle brand": document['bicycle brand'],
+                "brand": document['bicycle brand'],
                 "image": "/assets/images/bicicleta.webp",
                 "details_link": "details/" + file_name + ".html",
                 "description": document["description"],
