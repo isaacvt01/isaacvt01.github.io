@@ -1,5 +1,4 @@
-def create_bicycles_layout(html_content):
-    return f"""<!DOCTYPE html>
+<!DOCTYPE html>
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
@@ -15,17 +14,27 @@ def create_bicycles_layout(html_content):
               </div>
               <header>
               <section>
-                  {html_content}
+                  
+                <div class = "details">
+                    <a href="details_type/Sport.html">Sport</a>
+                </div>
+            
+                <div class = "details">
+                    <a href="details_type/Racing.html">Racing</a>
+                </div>
+            
+                <div class = "details">
+                    <a href="details_type/Aero.html">Aero</a>
+                </div>
+            
+                <div class = "details">
+                    <a href="details_type/Triatlon.html">Triatlon</a>
+                </div>
+            
+                <div class = "details">
+                    <a href="details_type/Trail.html">Trail</a>
+                </div>
+            
               </section>
               </body>
-          </html>"""
-
-
-def create_all_bicycles_layout(bic):
-    return f"""
-                <div class = "details">
-                    <a href="{bic['details_link']}"><img class="imagen_main" src="{bic['image']}"></a>
-                    <div>{bic["brand"]}</div>
-                    <div>{bic['model']}</div>
-                </div>
-            """
+          </html>

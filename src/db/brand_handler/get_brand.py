@@ -17,7 +17,7 @@ def get_brand(brand):
             {
                 "id": str(document['_id']),
                 "model": document['model'],
-                "bicycle brand": document['TRAKE DOMANE'],
+                "brand": document['TRAKE DOMANE'],
                 "image": "/assets/images/bicicleta.webp",
                 "details_link": "details/" + file_name + ".html",
                 "description": document["description"],

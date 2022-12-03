@@ -3,10 +3,10 @@ def create_brand_pages(bicycles):
     # Generar lista de todos los brands que existen en la base de datos
     for bic in bicycles:
         brands.append(
-            bic['bicycle brand']
+            bic['brand']
         )
         # Que no se repitan los brands
-        brands = list(dict.fromkeys(brands))
+    brands = list(dict.fromkeys(brands))
         # Llamamos a la funcion que nos va a crear la página
     create_main_brand_page(brands)
 
@@ -16,7 +16,7 @@ def create_brand_pages(bicycles):
         brand_with_bycicles[brand] = []
 
     for bic in bicycles:
-        brand_with_bycicles[bic['bicycle brand']].append(bic)
+        brand_with_bycicles[bic['brand']].append(bic)
 
     for brand in brands:
         create_brand_detail_page(brand, brand_with_bycicles[brand])
