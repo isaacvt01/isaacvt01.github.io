@@ -35,6 +35,14 @@ def create_main_page():
         external_file.close()
 
 
+def create_form_page():
+    html = create_main_page_layout()
+
+    with open("../presentation/form.html", "w") as external_file:
+        print(html, file=external_file)
+        external_file.close()
+
+
 def create_brand_pages(bicycles):
     brands = []
     # Generar lista de todos los brands que existen en la base de datos
