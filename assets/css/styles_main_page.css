@@ -24,12 +24,15 @@ a:hover, a:focus {
     font-family: "Anek Devanagari", sans-serif;
     transition: background-size .3s;
 }
-
+body{
+    z-index: 1;
+}
 header{
     position: fixed;
     margin: 0;
     width: 100%;
     max-height: 10%;
+    z-index: 2;
 }
 
 .first-photo{
