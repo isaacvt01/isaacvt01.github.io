@@ -85,7 +85,7 @@ def create_main_page_layout():
                 <li>Cap de Formentor</li>
                 <li>Galilea</li>
             </ul>
-            <video width="500" height="400" controls>
+            <video width="550" height="400" controls>
                 <source src="/bicycles-project/assets/images/video_bicycles.mp4" type="video/mp4">
               Your browser does not support the video tag.
               </video>

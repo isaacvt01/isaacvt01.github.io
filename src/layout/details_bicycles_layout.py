@@ -11,7 +11,7 @@ def create_bicycle_details_layout(bic):
     html = f"""<!DOCTYPE html>
         <html lang="en">
             <head>
-                <meta charset="UTF-8"/>
+                <meta charset="UTF-8">
                 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
                 <title> Details page </title>
             </head>
