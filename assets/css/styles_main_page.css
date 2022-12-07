@@ -98,12 +98,16 @@ nav {
 }
 
 /* BANNER TEXT */
-
-.banner-text {
+.banner-text
+{
     padding: 0 30px;
     margin-top: 150px;
     text-align: center;
-    color: #fff;
+
+}
+
+.banner-text h1{
+    color: white !important;
 }
 
 .banner-text h2 {

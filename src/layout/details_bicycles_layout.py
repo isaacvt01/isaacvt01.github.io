@@ -1,10 +1,10 @@
-def create_bicycle_details_layout(bicycles):
+def create_bicycle_details_layout(bic):
     details_html = f"""
         <div>
-            <img src="{bicycles['image']}">
-            <div>{bicycles["model"]}</div>
-            <div>{bicycles["description"]}</div>
-            <div>{bicycles["specifications"]}</div>
+            <img src="/assets/images/{bic['image']}">
+            <div>{bic["model"]}</div>
+            <div>{bic["description"]}</div>
+            <div>{bic["specifications"]}</div>
         </div>
      """
 

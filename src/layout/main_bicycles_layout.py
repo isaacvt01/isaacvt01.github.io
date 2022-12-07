@@ -22,10 +22,11 @@ def create_main_page_layout():
                     <i class="fa-sharp fa-solid fa-bars"></i>
                 </label>
                 <ul class="nav-menu">
-                    <li><a class="active">Ciudades</a></li>
-                    <li><a>Tiendas</a></li>
-                    <li><a href="">Todas las bicicletas</a></li>
-                    <li><a>Formulario de registro</li>
+                    <li><a href="http://localhost:63342/bicycles-project/presentation/index.html?_ijt=nusf4d02h388gjoo14lboqlc05" class="active">Home</a></li>
+                    <li><a href="http://localhost:63342/bicycles-project/presentation/brands_main.html?_ijt=nusf4d02h388gjoo14lboqlc05">Marcas</a></li>
+                    <li><a href="http://localhost:63342/bicycles-project/presentation/types_main.html?_ijt=nusf4d02h388gjoo14lboqlc05">Tipos</a></li>
+                    <li><a href="http://localhost:63342/bicycles-project/presentation/bicycles.html?_ijt=nusf4d02h388gjoo14lboqlc05">Todas las bicicletas</a></li>
+                    <li><a href="">Formulario de registro</li>
                     </ul>
             </nav>
             <p class="sticky-plus">Mongo-Bike, reserva tu bicicleta con nosotros...</p>
