@@ -1,27 +1,27 @@
 import pymongo
 def show_data(table):
     import os
-    # Declaramos una variable con el tiempo de espera máximo para la respuesta del servidor
+    # We declare a variable with the maximum waiting time for the server's response
     mongo_timeout = 5000
-    # Variable de entorno que contiene un string con la URI de conexión al cluster
+    # Environment variable containing a string with the connection URI to the cluster
     mongo_uri = os.environ['MONGO_URI']
-    # Esta variable contiene un string con la base de datos que vamos a utilizar
+    # This variable contains a string with the database we are going to use
     mongo_db = "proyecto_bicicletas"
-    # Esta variable contiene la colección que vamos a utilizar
+    # This variable contains the collection we are going to use
     mongo_collection = "bicicletas"
 
     try:
-        # Intentamos conectarnos al cluster y meter la colección en una variable, si funciona, devolvemos la variable
+        # We try to connect to the cluster and put the collection in a variable, if it works, we return the variable
         client = pymongo.MongoClient(mongo_uri, serverSelectionTimeoutMS=mongo_timeout)
         database = client[mongo_db]
         bicycles_collection = database[mongo_collection]
-
+        # Create a for loop that puts all the documents into the table
         for bic in bicycles_collection.find():
             table.insert('',0,text=bic['_id'], values=(bic['model'], bic['usage'], bic['bicycle type'], bic['bicycle brand']))
 
     except pymongo.errors.ServerSelectionTimeoutError:
-        print('Tiempo de espera agotado')
+        print('Timeout')
     except pymongo.errors.ConnectionFailure:
-        print('Fallo al conectarse')
+        print('An error occurred while connecting')
     except pymongo.errors.InvalidURI:
-        print('Hay un error en la URI')
+        print('There is an error in the URI entered')

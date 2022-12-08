@@ -4,20 +4,22 @@ import pymongo
 
 def create_data(usage, description, bicycle_type, model, shop_name):
     import os
-    # Declaramos una variable con el tiempo de espera máximo para la respuesta del servidor
+    # We declare a variable with the maximum waiting time for the server's response
     mongo_timeout = 5000
-    # Variable de entorno que contiene un string con la URI de conexión al cluster
+    # Environment variable containing a string with the connection URI to the cluster
     mongo_uri = os.environ['MONGO_URI']
-    # Esta variable contiene un string con la base de datos que vamos a utilizar
+    # This variable contains a string with the database we are going to use
     mongo_db = "proyecto_bicicletas"
-    # Esta variable contiene la colección que vamos a utilizar
+    # This variable contains the collection we are going to use
     mongo_collection = "bicicletas"
 
     try:
-        # Intentamos conectarnos al cluster y meter la colección en una variable, si funciona, devolvemos la variable
+        # We try to connect to the cluster and put the collection in a variable, if it works, we return the variable
         client = pymongo.MongoClient(mongo_uri, serverSelectionTimeoutMS=mongo_timeout)
         database = client[mongo_db]
         bicycles_collection = database[mongo_collection]
+        # We create a new variable, which is a dictionary
+        # where the values previously entered the tkinter fields will be placed.
         new_bicycle = {
             'usage': usage,
             'description': description,
@@ -25,14 +27,15 @@ def create_data(usage, description, bicycle_type, model, shop_name):
             'model': model,
             'shop name': shop_name
         }
+        # We put in the variable result the insertion of the bicycle
+        # We print on the screen the id of the inserted document
         result = bicycles_collection.insert_one(new_bicycle)
 
         print('Object inserted ' + str(result.inserted_id))
 
-        return bicycles_collection
     except pymongo.errors.ServerSelectionTimeoutError:
-        print('Tiempo de espera agotado')
+        print('Timeout')
     except pymongo.errors.ConnectionFailure:
-        print('Fallo al conectarse')
+        print('An error occurred while connecting')
     except pymongo.errors.InvalidURI:
-        print('Hay un error en la URI')
+        print('There is an error in the URI entered')

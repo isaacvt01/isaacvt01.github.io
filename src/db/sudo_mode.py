@@ -4,11 +4,14 @@ from src.db.delete import delete
 from src.db.update import update
 from src.db.read import read
 
-
+# Define a function to display a Tkinter window with the options cancel, delete, insert, update and show all.
 def sudo_mode():
+    # Create the variable sudo_window with the value of a Tkinter window
     sudo_window = tk.Tk()
     sudo_window.title('Sudo mode')
-    sudo_window.geometry('350x200')
+    sudo_window.geometry('350x250')
+    # Add text prompt + cancel, delete, insert, update, show all buttons
+    # In each button is associated with the function that will be called, you can see in command
     tk.Label(sudo_window,
              text="What do you want to do?").grid(row=0, column=2, sticky=tk.W, pady=5)
     tk.Button(sudo_window,
