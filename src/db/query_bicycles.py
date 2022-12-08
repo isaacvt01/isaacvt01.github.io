@@ -14,7 +14,7 @@ def get_bicycles_data():
                 "id": str(document['_id']),
                 "model": document['model'],
                 "brand": document['bicycle brand'],
-                "image": "../assets/images/bicicleta.webp",
+                "image": document['image'],
                 "details_link": "details/" + file_name + ".html",
                 "details_brand": "details_brand" + file_name + ".html",
                 "description": document["description"],
