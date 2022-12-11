@@ -37,12 +37,12 @@ def create_bicycle_details_layout(bic):
         </nav>
     </header>
     <div class="content">
-        <h1>Detalles de {bic["model"]}</h1>
+        <h1><b>Detalles de <span>{ bic["model"]}</span></b></h1>
         <section>
                 <img src="/assets/images/{bic['image']}" alt="bike-photo">
             
             <div class="descrip_specifications-details">
-                <p>{bic["model"]}</p>
+                <p<b>{bic["model"]}</b></p>
             
             
                 <p>{bic["description"]}</p>

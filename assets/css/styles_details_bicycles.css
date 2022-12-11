@@ -179,6 +179,10 @@ h1{
     align-items: center;
 }
 
+span{
+    color: #00e391;
+}
+
 
 /* FOOTER */
 footer{
@@ -191,3 +195,4 @@ footer{
 .social-networks{
     color: #00e391;
 }
+
