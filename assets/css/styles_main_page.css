@@ -67,16 +67,12 @@ nav {
 }
 
 .nav-menu {
-
     width: 100%;
-    height: 0vh;
     top: 100px;
-    background: rgb(0, 0, 0, .95);
     text-align: center;
 }
 
 .nav-menu li {
-    display: none;
     line-height: 30px;
     margin: 50px 0;
     transform: all .5s;
@@ -170,17 +166,58 @@ header {
     font-family: "Anek Devanagari", sans-serif;
 }
 
+.nav-mobile-icon {
+    display: none !important;
+}
+
+.nav-container {
+    margin-right: 50px;
+}
+
+
 /* RESPONSIVE TABLET*/
 
 @media screen and (max-width: 1080px) and (min-width: 428px) {
-    .nav-menu {
-        display: none;
-    }
-
-    .fa-sharp.fa-solid.fa-bars {
+    .nav-mobile-icon {
         display: block;
         margin-right: 20px;
     }
+
+    .nav-mobile-icon {
+        display: inline !important;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 1px solid grey;
+        background-color: white;
+        width: 200px;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        padding: 5px 10px;
+    }
+
+    .nav-container {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        margin-right: 15px;
+    }
+
+    .nav-container:hover>.nav-menu, .nav-menu:hover {
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1080px) and (min-width: 428px) {
+
     h1{
         display: none;
     }
