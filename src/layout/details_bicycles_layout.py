@@ -39,10 +39,10 @@ def create_bicycle_details_layout(bic):
     <div class="content">
         <h1><b>Detalles de <span>{ bic["model"]}</span></b></h1>
         <section>
-                <img src="/assets/images/{bic['image']}" alt="bike-photo">
+                <a href="https://www.sanferbike.com/es/" target="_blank"><img src="/assets/images/{bic['image']}" alt="bike-photo"></a>
             
             <div class="descrip_specifications-details">
-                <p<b>{bic["model"]}</b></p>
+                <p>{bic["model"]}</p>
             
             
                 <p>{bic["description"]}</p>
