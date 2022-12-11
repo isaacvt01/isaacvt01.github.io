@@ -17,6 +17,8 @@ def create_all_bicycles_page(bicycles):
         external_file.close()
 
 
+
+
 def create_detail_pages(bicycles):
     for bic in bicycles:
         html = create_bicycle_details_layout(bic)
@@ -33,6 +35,7 @@ def create_main_page():
     with open("../presentation/index.html", "w") as external_file:
         print(html, file=external_file)
         external_file.close()
+
 
 
 def create_form_page():
