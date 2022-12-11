@@ -3,7 +3,7 @@ from src.layout.details_bicycles_layout import create_bicycle_details_layout
 from src.layout.main_bicycles_layout import create_main_page_layout
 from src.layout.brands_bicycle_layout import create_main_brand_page_layout, create_brands_layout, create_detail_brand_page_layout, create_bic_entry
 from src.layout.types_bicycle_layout import create_detail_type_page_layout, create_main_type_page_layout, create_type_entry, create_type_bic_entry, trim_brand_name
-
+from src.layout.form_bicycles_layout import create_form_page_layout
 def create_all_bicycles_page(bicycles):
     bicycles_html = ''
 
@@ -15,6 +15,8 @@ def create_all_bicycles_page(bicycles):
     with open("../presentation/bicycles.html", "w") as external_file:
         print(html, file=external_file)
         external_file.close()
+
+
 
 
 def create_detail_pages(bicycles):
@@ -35,8 +37,9 @@ def create_main_page():
         external_file.close()
 
 
+
 def create_form_page():
-    html = create_main_page_layout()
+    html = create_form_page_layout()
 
     with open("../presentation/form.html", "w") as external_file:
         print(html, file=external_file)
