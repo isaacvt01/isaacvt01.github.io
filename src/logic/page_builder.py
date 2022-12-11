@@ -2,7 +2,7 @@ from src.presentation.view.bicycles_view import create_all_bicycles_layout, crea
 from src.presentation.view.details_bicycles_view import create_bicycle_details_layout
 from src.presentation.view.main_bicycles_view import create_main_page_layout
 from src.presentation.view.brands_bicycle_view import create_main_brand_page_layout, create_brands_layout, \
-    create_detail_brand_page_layout, create_bic_entry
+    create_detail_brand_page_layout, create_brands_entry
 from src.presentation.view.types_bicycle_view import create_detail_type_page_layout, create_main_type_page_layout, \
     create_type_entry, create_type_bic_entry, trim_type_name
 from src.presentation.view.form_bicycles_view import create_form_page_layout
@@ -74,7 +74,7 @@ def create_brand_pages(bicycles):
 def create_brand_detail_page(brand, brand_bics):
     entries = ''
     for bic in brand_bics:
-        entries += create_bic_entry(bic)
+        entries += create_brands_entry(bic)
 
     html = create_detail_brand_page_layout(entries)
 
