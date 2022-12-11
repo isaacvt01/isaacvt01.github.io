@@ -16,23 +16,22 @@ def create_bicycle_details_layout(bic):
     <header>
         <nav>
             <div>
-                <img class="logo" src="/bicycles-project/assets/images/logo2.png" alt="imagen-logo">
+                <img class="logo" src="/assets/images/logo2.png" alt="imagen-logo">
             </div>
             <i class="fa-sharp fa-solid fa-bars"></i>
             </label>
             <ul class="nav-menu">
-                <li><a href="http://localhost:63342/bicycles-project/presentation/index.html?_ijt=nusf4d02h388gjoo14lboqlc05"
+                <li><a href="../../presentation/index.html" target="_blank"
                         class="active">Home</a></li>
                 <li><a
-                        href="http://localhost:63342/bicycles-project/presentation/brands_main.html?_ijt=nusf4d02h388gjoo14lboqlc05">Marcas</a>
+                        href="../../presentation/brands_main.html" target="_blank">Marcas</a>
                 </li>
                 <li><a
-                        href="http://localhost:63342/bicycles-project/presentation/types_main.html?_ijt=nusf4d02h388gjoo14lboqlc05">Tipos</a>
+                        href="../../presentation/types_main.html" target="_blank">Tipos</a>
                 </li>
                 <li><a
-                        href="http://localhost:63342/bicycles-project/presentation/bicycles.html?_ijt=nusf4d02h388gjoo14lboqlc05">Todas
-                        las bicicletas</a></li>
-                <li><a href="">Formulario de registro</a></li>
+                        href="../../presentation/bicycles.html" target="_blank">Todas las bicicletas</a></li>
+                <li><a href="../../presentation/form.html" target="_blank">Formulario de registro</a></li>
             </ul>
         </nav>
     </header>
