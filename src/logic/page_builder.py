@@ -1,9 +1,9 @@
-from src.presentation.view.bicycles_layout import create_all_bicycles_layout, create_bicycles_layout
-from src.presentation.view.details_bicycles_layout import create_bicycle_details_layout
-from src.presentation.view.main_bicycles_layout import create_main_page_layout
-from src.presentation.view.brands_bicycle_layout import create_main_brand_page_layout, create_brands_layout, create_detail_brand_page_layout, create_bic_entry
-from src.presentation.view.types_bicycle_layout import create_detail_type_page_layout, create_main_type_page_layout, create_type_entry, create_type_bic_entry, trim_brand_name
-from src.presentation.view.form_bicycles_layout import create_form_page_layout
+from src.presentation.view.bicycles_view import create_all_bicycles_layout, create_bicycles_layout
+from src.presentation.view.details_bicycles_view import create_bicycle_details_layout
+from src.presentation.view.main_bicycles_view import create_main_page_layout
+from src.presentation.view.brands_bicycle_view import create_main_brand_page_layout, create_brands_layout, create_detail_brand_page_layout, create_bic_entry
+from src.presentation.view.types_bicycle_view import create_detail_type_page_layout, create_main_type_page_layout, create_type_entry, create_type_bic_entry, trim_brand_name
+from src.presentation.view.form_bicycles_view import create_form_page_layout
 def create_all_bicycles_page(bicycles):
     bicycles_html = ''
 
