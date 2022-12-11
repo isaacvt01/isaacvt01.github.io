@@ -46,7 +46,7 @@ def create_form_page_layout():
         </hgroup>
         <form action="http://www.infojobs.com" method="get">
         <div class="group">
-            <input type="text" placeholder="Nombre y Apellidos"><span class="highlight" ></span><span class="bar"></span>
+            <input type="text" placeholder="Nombre y Apellidos" id="nombre"><span class="highlight" ></span><span class="bar"></span>
             
         </div>
         <div class="group">

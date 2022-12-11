@@ -426,6 +426,9 @@ input {
   font-size: 23px;
   padding: 30px;
 }
+#nombre{
+    border-bottom-width: 1px;
+}
 footer{
   font-size: 20px;
 }
