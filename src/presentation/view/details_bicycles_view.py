@@ -47,7 +47,17 @@ def create_bicycle_details_layout(bic):
                 <p>{bic["description"]}</p>
 
 
-                <p>{bic["specifications"]}</p>
+                <p>{bic["specifications"]['Cassette']}</p>
+                <p>{bic["specifications"]['Material']}</p>
+                <p>{bic["specifications"]['Chain']}</p>
+                <p>{bic["specifications"]['Saddle']}</p>
+                <p>{bic["specifications"]['Wheels']}</p>
+                <p>{bic["specifications"]['Power']}</p>
+                <p>{bic["specifications"]['Fork']}</p>
+                <p>{bic["specifications"]['Brakes']}</p>
+                <p>{bic["specifications"]['Frame']}</p>
+                <p>{bic["specifications"]['Handlebar']}</p>
+                <p>{bic["specifications"]['Seat post']}</p>
             </div>
         </section>
     </div>
