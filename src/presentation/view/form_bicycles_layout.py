@@ -1,4 +1,5 @@
-
+def create_form_page_layout():
+    return f"""
 <!DOCTYPE html>
 <html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -16,18 +17,18 @@
             <i class="fa-sharp fa-solid fa-bars"></i>
             </label>
             <ul class="nav-menu">
-                <li><a href="../presentation/index.html" target="_blank"
+                <li><a href="../dist/index.html" target="_blank"
                         class="active">Home</a></li>
                 <li><a
-                        href="../presentation/brands_main.html" target="_blank">Marcas</a>
+                        href="../dist/brands_main.html" target="_blank">Marcas</a>
                 </li>
                 <li><a
-                        href="../presentation/types_main.html" target="_blank">Tipos</a>
+                        href="../dist/types_main.html" target="_blank">Tipos</a>
                 </li>
                 <li><a
-                        href="../presentation/bicycles.html" target="_blank">Todas
+                        href="../dist/bicycles.html" target="_blank">Todas
                         las bicicletas</a></li>
-                <li><a href="../presentation/form.html" target="_blank">Formulario de registro</a></li>
+                <li><a href="../dist/form.html" target="_blank">Formulario de registro</a></li>
             </ul>
         </nav>
     </header>
@@ -41,7 +42,7 @@
 
     <section>
         <hgroup>
-    <h1>Introduce tus datos aquí:</h1>
+    <h1>Introduce tus datos aquÃ­:</h1>
         </hgroup>
         <form action="http://www.infojobs.com" method="get">
         <div class="group">
@@ -53,7 +54,7 @@
             
         </div>
         <div class="group">
-            <input type="text" placeholder="Envíanos un mensaje"><span class="highlight"></span><span class="bar"></span>
+            <input type="text" placeholder="EnvÃ­anos un mensaje"><span class="highlight"></span><span class="bar"></span>
             
         </div>
         <button type="submit" class="button buttonBlue">Enviar
@@ -64,8 +65,8 @@
         <hr>
         <h3>MongoBike</h3>
         <h4>@MONGO-BIKE</h4>
-        <p>Diseñador web: Isaac Vásquez / Manuel Ortega</p>
-        <p>Aviso legal | Política de privacidad</p>
+        <p>DiseÃ±ador web: Isaac VÃ¡squez / Manuel Ortega</p>
+        <p>Aviso legal | PolÃ­tica de privacidad</p>
         <div class="social-networks">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
@@ -73,4 +74,4 @@
         </div>
     </footer>
 </body>
-
+"""

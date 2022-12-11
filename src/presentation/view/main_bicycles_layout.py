@@ -20,11 +20,11 @@ def create_main_page_layout():
             </div>
                 <i class="fa-sharp fa-solid fa-bars"></i>
             <ul class="nav-menu">
-                <li><a href="../presentation/index.html" target="_blank" class="active">Home</a></li>
-                <li><a href="../presentation/brands_main.html" target="_blank">Marcas</a></li>
-                <li><a href="../presentation/types_main.html" target="_blank">Tipos</a></li>
-                <li><a href="../presentation/bicycles.html" target="_blank">Todas las bicicletas</a></li>
-                <li><a href="../presentation/form.html">Formulario de registro</a></li>
+                <li><a href="../dist/index.html" target="_blank" class="active">Home</a></li>
+                <li><a href="../dist/brands_main.html" target="_blank">Marcas</a></li>
+                <li><a href="../dist/types_main.html" target="_blank">Tipos</a></li>
+                <li><a href="../dist/bicycles.html" target="_blank">Todas las bicicletas</a></li>
+                <li><a href="../dist/form.html">Formulario de registro</a></li>
             </ul>
         </nav>
     </header>
@@ -34,8 +34,8 @@ def create_main_page_layout():
             <h1>MONGO-BIKE MALLORCA</h1>
             <h1>Reserva tu bicicleta <span>CON NOSOTROS</span></h1>
             <div class="botones">
-                <a href="../presentation/form.html" class="button1">REGISTRO</a>
-                <a href="../presentation/bicycles.html" target="_blank"" class="button2">BICICLETAS DISPONIBLES</a>
+                <a href="../dist/form.html" class="button1">REGISTRO</a>
+                <a href="../dist/bicycles.html" target="_blank"" class="button2">BICICLETAS DISPONIBLES</a>
             </div>
         </div>
     </section>

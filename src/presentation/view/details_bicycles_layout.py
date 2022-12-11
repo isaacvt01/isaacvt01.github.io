@@ -21,17 +21,17 @@ def create_bicycle_details_layout(bic):
             <i class="fa-sharp fa-solid fa-bars"></i>
             </label>
             <ul class="nav-menu">
-                <li><a href="../../presentation/index.html" target="_blank"
+                <li><a href="../../dist/index.html" target="_blank"
                         class="active">Home</a></li>
                 <li><a
-                        href="../../presentation/brands_main.html" target="_blank">Marcas</a>
+                        href="../../dist/brands_main.html" target="_blank">Marcas</a>
                 </li>
                 <li><a
-                        href="../../presentation/types_main.html" target="_blank">Tipos</a>
+                        href="../../dist/types_main.html" target="_blank">Tipos</a>
                 </li>
                 <li><a
-                        href="../../presentation/bicycles.html" target="_blank">Todas las bicicletas</a></li>
-                <li><a href="../../presentation/form.html" target="_blank">Formulario de registro</a></li>
+                        href="../../dist/bicycles.html" target="_blank">Todas las bicicletas</a></li>
+                <li><a href="../../dist/form.html" target="_blank">Formulario de registro</a></li>
             </ul>
         </nav>
     </header>
