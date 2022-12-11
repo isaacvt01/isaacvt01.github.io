@@ -1,4 +1,6 @@
 from src.db.connection.get_collection_bicycles import get_collection_bicycles
+
+
 # En esta función sacamos los datos de la colección y los metemos en una lista
 def get_bicycles_data():
     # Llamamos a la función que conecta y saca los datos de la colección bicicletas

@@ -1,6 +1,7 @@
 import tkinter as tk
 from src.db.delete.delete_bicycle import delete_data
 
+
 # Defining a function to delete data from a Tkinter window
 def delete():
     # We define a function that will save the data entered at the moment of hitting enter

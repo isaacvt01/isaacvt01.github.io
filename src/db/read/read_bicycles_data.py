@@ -1,4 +1,6 @@
 import pymongo
+
+
 def read_bicycles_data(table):
     import os
     # We declare a variable with the maximum waiting time for the server's response
@@ -17,7 +19,8 @@ def read_bicycles_data(table):
         bicycles_collection = database[mongo_collection]
         # Create a for loop that puts all the documents into the table
         for bic in bicycles_collection.find():
-            table.insert('',0,text=bic['_id'], values=(bic['model'], bic['usage'], bic['bicycle type'], bic['bicycle brand']))
+            table.insert('', 0, text=bic['_id'],
+                         values=(bic['model'], bic['usage'], bic['bicycle type'], bic['bicycle brand']))
 
     except pymongo.errors.ServerSelectionTimeoutError:
         print('Timeout')

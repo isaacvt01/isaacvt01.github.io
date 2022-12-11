@@ -22,7 +22,7 @@ def delete_data(_id):
         bike_to_delete = {
             "_id": ObjectId(_id)
         }
-        #We put in the result variable the action of deleting the document
+        # We put in the result variable the action of deleting the document
         # then we print on the screen the number of objects that have been deleted.
         result = bicycles_collection.delete_one(bike_to_delete)
 
@@ -34,4 +34,3 @@ def delete_data(_id):
         print('An error occurred while connecting')
     except pymongo.errors.InvalidURI:
         print('There is an error in the URI entered')
-

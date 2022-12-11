@@ -1,9 +1,13 @@
 from src.presentation.view.bicycles_view import create_all_bicycles_layout, create_bicycles_layout
 from src.presentation.view.details_bicycles_view import create_bicycle_details_layout
 from src.presentation.view.main_bicycles_view import create_main_page_layout
-from src.presentation.view.brands_bicycle_view import create_main_brand_page_layout, create_brands_layout, create_detail_brand_page_layout, create_bic_entry
-from src.presentation.view.types_bicycle_view import create_detail_type_page_layout, create_main_type_page_layout, create_type_entry, create_type_bic_entry, trim_brand_name
+from src.presentation.view.brands_bicycle_view import create_main_brand_page_layout, create_brands_layout, \
+    create_detail_brand_page_layout, create_bic_entry
+from src.presentation.view.types_bicycle_view import create_detail_type_page_layout, create_main_type_page_layout, \
+    create_type_entry, create_type_bic_entry, trim_brand_name
 from src.presentation.view.form_bicycles_view import create_form_page_layout
+
+
 def create_all_bicycles_page(bicycles):
     bicycles_html = ''
 
@@ -15,8 +19,6 @@ def create_all_bicycles_page(bicycles):
     with open("../dist/bicycles.html", "w") as external_file:
         print(html, file=external_file)
         external_file.close()
-
-
 
 
 def create_detail_pages(bicycles):
@@ -37,7 +39,6 @@ def create_main_page():
         external_file.close()
 
 
-
 def create_form_page():
     html = create_form_page_layout()
 
@@ -55,7 +56,7 @@ def create_brand_pages(bicycles):
         )
         # Que no se repitan los brands
     brands = list(dict.fromkeys(brands))
-        # Llamamos a la funcion que nos va a crear la página
+    # Llamamos a la funcion que nos va a crear la página
     create_main_brand_page(brands)
 
     brand_with_bycicles = {}
@@ -138,5 +139,3 @@ def create_type_detail_page(type, type_bics):
     with open("../dist/details_type/" + trim_brand_name(type) + ".html", "w") as external_file:
         print(html, file=external_file)
         external_file.close()
-
-

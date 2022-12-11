@@ -1,12 +1,11 @@
 from src.db.connection.get_collection_bicycles import get_collection_bicycles
 
-def get_type(type):
 
+def get_type(type):
     #  Cogemos la conexion a las bicis
     bicycles_collection = get_collection_bicycles()
     # Creamos la query para sacar el tipo aero
-    query_result = bicycles_collection.find({"bicycle type":type})
-
+    query_result = bicycles_collection.find({"bicycle type": type})
 
     data = []
     for document in query_result:
@@ -27,4 +26,3 @@ def get_type(type):
         )
 
     return data
-

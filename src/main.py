@@ -6,9 +6,7 @@ from src.logic.page_builder import create_brand_pages
 from src.logic.page_builder import create_type_main_page
 from src.logic.page_builder import create_form_page
 
-
 if __name__ == "__main__":
-
     bicycles = get_bicycles_data()
 
     create_main_page()
@@ -22,4 +20,3 @@ if __name__ == "__main__":
     create_type_main_page(bicycles)
 
     create_form_page()
-

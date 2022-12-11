@@ -1,6 +1,5 @@
 import pymongo
 
-import pymongo
 
 def create_data(usage, description, bicycle_type, model, shop_name):
     import os

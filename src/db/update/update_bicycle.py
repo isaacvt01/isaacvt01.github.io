@@ -21,12 +21,12 @@ def update_data(_id, usage, model, description, shop_name, bicycle_brand):
         bicycles_collection = database[mongo_collection]
         bike_to_update = {"_id": ObjectId(_id)}
         fields_update = {
-            "$set":{"usage": usage,
-                    "model": model,
-                    "description": description,
-                    "shop name": shop_name,
-                    "bicycle brand": bicycle_brand
-                    }
+            "$set": {"usage": usage,
+                     "model": model,
+                     "description": description,
+                     "shop name": shop_name,
+                     "bicycle brand": bicycle_brand
+                     }
         }
         pprint.pprint(bicycles_collection.find_one(bike_to_update))
         result = bicycles_collection.update_one(bike_to_update, fields_update)
@@ -40,4 +40,3 @@ def update_data(_id, usage, model, description, shop_name, bicycle_brand):
         print('An error occurred while connecting')
     except pymongo.errors.InvalidURI:
         print('There is an error in the URI entered')
-

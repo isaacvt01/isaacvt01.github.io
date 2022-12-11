@@ -13,6 +13,7 @@ def create():
         bicycle_brand_saved = bicycle_brand.get()
         create_data(usage_saved, model_saved, description_saved, shop_name_saved, bicycle_brand_saved)
         ask_for_options.quit()
+
     # We define the variable ask_for_options as the Tkinter window. We put a size of 250x200
     ask_for_options = tk.Tk()
     ask_for_options.geometry('250x200')

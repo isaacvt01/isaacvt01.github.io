@@ -1,6 +1,7 @@
 import tkinter as tk
 from src.db.update.update_bicycle import update_data
 
+
 # Define a function in which a Tkinter window is displayed and data is entered to update the db.
 def update():
     # Define a function that saves the data to send it to the function that connects to the database.
@@ -13,6 +14,7 @@ def update():
         bicycle_brand_saved = bicycle_brand.get()
         update_data(_id_saved, usage_saved, model_saved, description_saved, shop_name_saved, bicycle_brand_saved)
         ask_for_options.iconify()
+
     # Create a variable containing Tkinter window
     # Assign the _id, usage, model, description, shop_name and bicycle_brand variables
     # the input value in the ask_for_options window.
@@ -45,13 +47,7 @@ def update():
 
     # Set the Cancel and Enter buttons, cancel with the command to close the window, enter will execute the save function
 
-    tk.Button(ask_for_options, text='Cancel', command=ask_for_options.quit,).grid(row=8, column=0, pady=4)
-    tk.Button(ask_for_options, text='Enter', command=save ).grid(row=8, column=2, pady=4)
-
+    tk.Button(ask_for_options, text='Cancel', command=ask_for_options.quit, ).grid(row=8, column=0, pady=4)
+    tk.Button(ask_for_options, text='Enter', command=save).grid(row=8, column=2, pady=4)
 
     tk.mainloop()
-
-
-
-
-
