@@ -1,9 +1,9 @@
-from src.db.get_bicycles import get_bicycles
+from src.db.connection.get_collection_bicycles import get_collection_bicycles
 
 def get_brand(brand):
 
     #  Cogemos la conexion a las bicis
-    bikes_collection = get_bicycles()
+    bikes_collection = get_collection_bicycles()
     # Creamos la query para sacar el tipo racing
     query_results = bikes_collection.find({"bicycle brand": brand})
 

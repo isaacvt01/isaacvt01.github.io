@@ -1,5 +1,5 @@
 import tkinter as tk
-from src.db.create_data import create_data
+from src.db.create.create_bicycle import create_data
 
 
 # we define a function where a window is created with tkinter to add data to the database.

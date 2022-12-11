@@ -1,4 +1,4 @@
-from src.db.query_bicycles import get_bicycles_data
+from src.db.read.read_bicycles import get_bicycles_data
 
 
 def test_bicycles_list():

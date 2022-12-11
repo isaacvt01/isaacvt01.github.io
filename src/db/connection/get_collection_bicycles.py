@@ -1,6 +1,6 @@
 import pymongo
 
-def get_bicycles():
+def get_collection_bicycles():
     import os
     # Declaramos una variable con el tiempo de espera máximo para la respuesta del servidor
     mongo_timeout = 5000

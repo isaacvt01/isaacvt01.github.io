@@ -1,5 +1,5 @@
 import pymongo
-def show_data(table):
+def read_bicycles_data(table):
     import os
     # We declare a variable with the maximum waiting time for the server's response
     mongo_timeout = 5000

@@ -1,4 +1,4 @@
-from src.db.brand_handler.get_brand import get_brand
+from src.db.read.read_brands import get_brand
 
 
 def test_cannondale():

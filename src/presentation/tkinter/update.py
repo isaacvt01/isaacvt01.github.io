@@ -1,5 +1,5 @@
 import tkinter as tk
-from src.db.update_data import update_data
+from src.db.update.update_bicycle import update_data
 
 # Define a function in which a Tkinter window is displayed and data is entered to update the db.
 def update():

@@ -1,5 +1,5 @@
 import tkinter as tk
-from src.db.delete_one import delete_data
+from src.db.delete.delete_bicycle import delete_data
 
 # Defining a function to delete data from a Tkinter window
 def delete():

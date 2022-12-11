@@ -1,5 +1,5 @@
 
-from src.db.type_handler.get_type import get_type
+from src.db.read.read_types import get_type
 
 def test_racing():
     for document in get_type('Racing'):
