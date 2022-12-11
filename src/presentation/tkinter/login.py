@@ -1,16 +1,16 @@
 import tkinter as tk
-from src.presentation.tkinter.sudo_mode import sudo_mode
+from src.presentation.tkinter.dashboard import dashboard
 
 
 # Define a function that creates a Tkinter window and displays the following options
-def request_access():
+def login():
     # Define a function that saves the entered data
     def get_fields():
         user_saved = user.get()
         password_saved = password.get()
         if user_saved == 'Admin' and password_saved == '1234':
             master.iconify()
-            sudo_mode()
+            dashboard()
         else:
             master.iconify()
             return 'Viewer'

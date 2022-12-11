@@ -5,7 +5,7 @@ from src.presentation.tkinter.update import update
 from src.presentation.tkinter.read import read
 
 # Define a function to display a Tkinter window with the options cancel, delete, insert, update and show all.
-def sudo_mode():
+def dashboard():
     # Create the variable sudo_window with the value of a Tkinter window
     sudo_window = tk.Tk()
     sudo_window.title('Sudo mode')

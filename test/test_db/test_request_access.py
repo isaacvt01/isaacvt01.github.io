@@ -1,9 +1,9 @@
-from src.presentation.tkinter.request_access import request_access
-from src.presentation.tkinter.sudo_mode import sudo_mode
+from src.presentation.tkinter.login import login
+from src.presentation.tkinter.dashboard import dashboard
 
 
 def test_request_acces():
-    assert request_access() is None
+    assert login() is None
 
 def test_sudo_mode():
-    assert sudo_mode() is None
+    assert dashboard() is None

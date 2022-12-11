@@ -1,4 +1,4 @@
-from src.presentation.tkinter.request_access import request_access
+from src.presentation.tkinter.login import login
 
 if __name__ == "__main__":
-    request_access()
+    login()
