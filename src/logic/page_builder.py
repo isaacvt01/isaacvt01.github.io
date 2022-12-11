@@ -4,7 +4,7 @@ from src.presentation.view.main_bicycles_view import create_main_page_layout
 from src.presentation.view.brands_bicycle_view import create_main_brand_page_layout, create_brands_layout, \
     create_detail_brand_page_layout, create_bic_entry
 from src.presentation.view.types_bicycle_view import create_detail_type_page_layout, create_main_type_page_layout, \
-    create_type_entry, create_type_bic_entry, trim_brand_name
+    create_type_entry, create_type_bic_entry, trim_type_name
 from src.presentation.view.form_bicycles_view import create_form_page_layout
 
 
@@ -78,7 +78,7 @@ def create_brand_detail_page(brand, brand_bics):
 
     html = create_detail_brand_page_layout(entries)
 
-    with open("../dist/details_brand/" + trim_brand_name(brand) + ".html", "w", encoding='utf-8') as external_file:
+    with open("../dist/details_brand/" + trim_type_name(brand) + ".html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -136,6 +136,6 @@ def create_type_detail_page(type, type_bics):
 
     html = create_detail_type_page_layout(entries)
 
-    with open("../dist/details_type/" + trim_brand_name(type) + ".html", "w", encoding='utf-8') as external_file:
+    with open("../dist/details_type/" + trim_type_name(type) + ".html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
