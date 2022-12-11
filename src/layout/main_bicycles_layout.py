@@ -18,9 +18,7 @@ def create_main_page_layout():
             <div>
                 <img class="logo" src="/bicycles-project/assets/images/logo2.png" alt="imagen-logo">
             </div>
-            <label for="check" class="bar-btn">
                 <i class="fa-sharp fa-solid fa-bars"></i>
-            </label>
             <ul class="nav-menu">
                 <li><a href="http://localhost:63342/bicycles-project/presentation/index.html?_ijt=nusf4d02h388gjoo14lboqlc05" target="_blank" class="active">Home</a></li>
                 <li><a href="http://localhost:63342/bicycles-project/presentation/brands_main.html?_ijt=nusf4d02h388gjoo14lboqlc05" target="_blank">Marcas</a></li>
@@ -36,7 +34,7 @@ def create_main_page_layout():
             <h1>MONGO-BIKE MALLORCA</h1>
             <h1>Reserva tu bicicleta <span>CON NOSOTROS</span></h1>
             <div class="botones">
-                <a href="#" class="button1">REGISTRO</a>
+                <a href="http://localhost:63342/bicycles-project/presentation/form.html?_ijt=4e0sgs76qhs20jhm08m7of5p3r" class="button1">REGISTRO</a>
                 <a href="http://localhost:63342/bicycles-project/presentation/bicycles.html?_ijt=nusf4d02h388gjoo14lboqlc05" target="_blank"" class="button2">BICICLETAS DISPONIBLES</a>
             </div>
         </div>
@@ -73,11 +71,8 @@ def create_main_page_layout():
             <h5>RUTAS RECOMENDADAS POR NOSOTROS</h5>
             <h2>CONOCE LAS MEJORES RUTAS DE MALLORCA</h2>
             <p>Todas nuestras tiendas, vienen con un mapa indicando algunas de las rutas<br> que se pueden hacer en la
-                isla
-                Mallorca. <br>Dependiendo de la localización de la tienda, le indicaremos las rutas más cercanas<br> a
-                ella.
-                Entre
-                otras tenemos:</p>
+                isla Mallorca. <br>Dependiendo de la localización de la tienda, le indicaremos las rutas más cercanas<br> a ella. Entre otras tenemos:</p>
+        
             <ul>
                 <li>Paseo Maritimo</li>
                 <li>Sa Calobra</li>
@@ -88,8 +83,9 @@ def create_main_page_layout():
             <video width="550" height="400" controls>
                 <source src="/bicycles-project/assets/images/video_bicycles.mp4" type="video/mp4">
               Your browser does not support the video tag.
-              </video>
+            </video>
         </div>
+        
 
         <div class="img-routes">
             <img class="img-catedral" class="img-catedral-vert"

@@ -170,9 +170,60 @@ header {
     font-family: "Anek Devanagari", sans-serif;
 }
 
+/* RESPONSIVE TABLET*/
+
+@media screen and (max-width: 1080px) and (min-width: 428px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .fa-sharp.fa-solid.fa-bars {
+        display: block;
+        margin-right: 20px;
+    }
+    h1{
+        display: none;
+    }
+
+    .botones{
+        display: none;
+    }
+
+    .img-catedral{
+        display: none;
+    }
+
+    .img-catedral-hori{
+        display: none;
+    }
+
+    .routes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+        margin-left: 0 !important;
+        list-style: none;
+        justify-content: flex-start !important;
+    }
+
+    li{
+        padding: 20px;
+    }
+
+    .catedral{
+        margin-left: 0px !important;
+    }
+
+
+}
+
 /* RESPONSIVE FOR DESKTOP */
 
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 1080px ) {
 
 
     .logo {
@@ -222,6 +273,7 @@ header {
     .banner-text h2 {
         font-size: 24px;
     }
+
 }
 
 /* Sticky plus */
@@ -232,7 +284,7 @@ header {
 .first-element-body {
     margin: 100px;
     text-align: center;
-    font-size: 38px;
+    font-size: 30px;
 }
 
 .about-us {
@@ -257,6 +309,8 @@ header {
     margin-bottom: 50px;
 
 }
+
+
 
 .logos-description1 {
     display: flex;
