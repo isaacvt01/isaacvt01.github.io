@@ -35,7 +35,7 @@ def create_main_page_layout():
             <h1>Reserva tu bicicleta <span>CON NOSOTROS</span></h1>
             <div class="botones">
                 <a href="../dist/form.html" class="button1">REGISTRO</a>
-                <a href="../dist/bicycles.html" target="_blank"" class="button2">BICICLETAS DISPONIBLES</a>
+                <a href="../dist/bicycles.html" target="_blank" class="button2">BICICLETAS DISPONIBLES</a>
             </div>
         </div>
     </section>
