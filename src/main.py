@@ -24,6 +24,5 @@ if __name__ == "__main__":
 
     create_type_main_page(bicycles)
 
-    create_type_main_page(bicycles)
-
     create_form_page()
+
