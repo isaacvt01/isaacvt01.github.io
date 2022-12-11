@@ -1,18 +1,20 @@
+from src.presentation.view.navigation_view import get_navigation_view
+
 def create_detail_brand_page_layout(html_content):
+    nav = get_navigation_view()
+
     return f"""<!DOCTYPE html>
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
+                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
                   <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
+                  <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
                   <title> Main Page </title>
               </head>
-              <body>
+              <body class="body-main_page">
               <header>
-              <div class="overlay">
-                    <h1>Rental Bike Baleares</h1>
-                    <h3>Reasons for Choosing US</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
-              </div>
+              {nav}
               <header>
               <section>
                   {html_content}
@@ -22,14 +24,21 @@ def create_detail_brand_page_layout(html_content):
 
 
 def create_main_brand_page_layout(html_content):
+    nav = get_navigation_view()
+
     return f"""<!DOCTYPE html>
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
+                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
                   <link rel="stylesheet" type="text/css" href="../assets/css/styles_brands_bicycles.css">
+                  <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
                   <title> Main Page </title>
               </head>
-              <body class="body_main_page">
+              <body class="body-main_page">
+              <header>
+                {nav}
+              </header>
     <section class="first-photo">
         <div class="banner-text">
             <h1>MONGO-BIKE MALLORCA</h1>

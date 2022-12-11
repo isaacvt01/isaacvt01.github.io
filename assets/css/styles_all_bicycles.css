@@ -1,8 +1,17 @@
 /* Página todas las bicicletas */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+
+    box-sizing: border-box;
+    font-family: "Anek Devanagari", sans-serif;
+    transition: background-size .3s;
+}
 
 body{
-	height: auto;
-	background-color: #FCFCFC;
+	z-index: 1;
 }
 
 section {
@@ -47,7 +56,7 @@ header {
 	position: relative;
 	overflow: hidden;
 }
-header .overlay{
+.overlay{
 	width: 100%;
 	padding: 50px;
 	color: #FFF;

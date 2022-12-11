@@ -1,36 +1,21 @@
+from src.presentation.view.navigation_view import get_navigation_view
+
 def create_form_page_layout():
+    nav = get_navigation_view()
+
     return f"""
 <!DOCTYPE html>
 <html lang="es" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
     <link rel="stylesheet" type="text/css" href="/../assets/css/styles_form_bicycles.css">
     <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body class="body-main_page">
     <header>
-        <nav>
-            <div>
-                <img class="logo" src="/assets/images/logo2.png" alt="imagen-logo">
-            </div>
-            <i class="fa-sharp fa-solid fa-bars"></i>
-            </label>
-            <ul class="nav-menu">
-                <li><a href="../dist/index.html" target="_blank"
-                        class="active">Home</a></li>
-                <li><a
-                        href="../dist/brands_main.html" target="_blank">Marcas</a>
-                </li>
-                <li><a
-                        href="../dist/types_main.html" target="_blank">Tipos</a>
-                </li>
-                <li><a
-                        href="../dist/bicycles.html" target="_blank">Todas
-                        las bicicletas</a></li>
-                <li><a href="../dist/form.html" target="_blank">Formulario de registro</a></li>
-            </ul>
-        </nav>
+        {nav}
     </header>
 
     <section class="first-photo">
