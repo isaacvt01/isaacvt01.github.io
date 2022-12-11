@@ -1,8 +1,8 @@
 import tkinter as tk
-from src.db.create import create
-from src.db.delete import delete
-from src.db.update import update
-from src.db.read import read
+from src.presentation.tkinter.create import create
+from src.presentation.tkinter.delete import delete
+from src.presentation.tkinter.update import update
+from src.presentation.tkinter.read import read
 
 # Define a function to display a Tkinter window with the options cancel, delete, insert, update and show all.
 def sudo_mode():

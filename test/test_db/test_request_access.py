@@ -1,5 +1,5 @@
-from src.db.request_access import request_access
-from src.db.sudo_mode import sudo_mode
+from src.presentation.tkinter.request_access import request_access
+from src.presentation.tkinter.sudo_mode import sudo_mode
 
 
 def test_request_acces():
