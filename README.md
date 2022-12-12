@@ -41,7 +41,7 @@ Executar: pip install -r requirements.txt
     - que rol tiene cada folder
     - como estan relacionados
 
-### TEST
+### TEST 
 - cuanto coverage
 - que se ha testeado
 - que no se ha podido testear y porque
