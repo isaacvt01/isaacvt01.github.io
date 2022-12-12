@@ -84,6 +84,21 @@ h3, p {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 30px;
 }
+@media screen and (max-width: 1080px) and (min-width: 428px) {
+    .fa-sharp.fa-solid.fa-bars{
+  display: block;
+  margin-right: 20px;
+}
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .nav-menu{
+  display: none;
+}
+}
 
 
 
