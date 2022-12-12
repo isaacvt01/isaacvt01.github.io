@@ -66,7 +66,7 @@ header {
 
 .overlay {
 	border-radius: 0 0 20% 20% / 30%;
-	background-image:url(/bicycles-project/assets/images/image_background.jpg);
+	background-image:url(/assets/images/image_background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
