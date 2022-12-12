@@ -66,6 +66,7 @@ Lo que se ha instalado y utlizado de Python y MongoDb
 #### Marcado rojo(Creación de la interfaz web)
 Con el marcado rojo queremos indicar las relaciones que hay en los módulos con sus diferentes funciones de la creación de la interfaz web
 
+
 #### Marcado azul
 Con el marcado azul indicamos las relaciones que hay entre los módulos de la interfaz CRUD creada con Tkinter.
 #### Marcado negro
