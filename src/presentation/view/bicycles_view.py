@@ -9,8 +9,8 @@ def create_bicycles_layout(html_content):
     <head>
         <meta charset="UTF-8"/>
         <meta name="generator" content="PyCharm">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/styles_all_bicycles.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/style_nav.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/styles_all_bicycles.css">
         <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
         <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
         <meta name="description" content="Página donde se ven todas las bicicletas disponibles">
