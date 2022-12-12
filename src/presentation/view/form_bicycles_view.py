@@ -10,8 +10,12 @@ def create_form_page_layout():
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
     <link rel="stylesheet" type="text/css" href="/../assets/css/styles_form_bicycles.css">
+    <meta name="description" content="Página donde puedes registrarte con nosotros">
+    <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale, formulario"/>
+    <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
+    <meta name="generator" content="PyCharm">
     <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Registro</title>
 </head>
 <body class="body-main_page">
     <header>

@@ -6,15 +6,19 @@ def create_main_page_layout():
 
     return f"""
     <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../assets/css/styles_main_page.css">
+    <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
+    <meta name="generator" content="PyCharm">
+    <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
+    <meta name="description" content="Aquí podrás visitar nuestra página web, podrás consultar todas las bicicletas disponibles, filtrarlas por marcas o tipos.">
     <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Página principal</title>
 </head>
 
 <body class="body-main_page">
