@@ -111,7 +111,7 @@ Como se puede ver en el gráfico, hemos invertido 112h, es una aproximación, ya
 - **Git-Hub Pages:** Arreglar todos los problemas ocasionados por rutas y entender GitHub Pages.
 - 
 
-![Gráfico Clockify](/readme_images/Clockify.png)
+![Gráfico Clockify](/readme_images/Clockify.PNG)
 - En que hemos invertido el tiempo
 
 ### Conclusion
