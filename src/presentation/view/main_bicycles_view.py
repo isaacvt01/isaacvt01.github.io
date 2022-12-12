@@ -12,7 +12,7 @@ def create_main_page_layout():
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/styles_main_page.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles_main_page.css">
     <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
     <meta name="generator" content="PyCharm">
     <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
@@ -31,8 +31,8 @@ def create_main_page_layout():
             <h1>MONGO-BIKE MALLORCA</h1>
             <h1>Reserva tu bicicleta <span>CON NOSOTROS</span></h1>
             <div class="botones">
-                <a href="../dist/form.html" class="button1">REGISTRO</a>
-                <a href="../dist/bicycles.html" target="_blank" class="button2">BICICLETAS DISPONIBLES</a>
+                <a href="./form.html" class="button1">REGISTRO</a>
+                <a href="./bicycles.html" target="_blank" class="button2">BICICLETAS DISPONIBLES</a>
             </div>
         </div>
     </section>
@@ -45,19 +45,19 @@ def create_main_page_layout():
 
     <section class="icons">
         <div class="logos-description1">
-            <img class="icon-img" src="../assets/images/icon-precios.svg" alt="icon1">
+            <img class="icon-img" src="./assets/images/icon-precios.svg" alt="icon1">
             <h4>Los mejores precios</h4>
         </div>
         <div class="logos-description2">
-            <img class="icon-img" src="../assets/images/icon-tiempo.svg" alt="icon2">
+            <img class="icon-img" src="./assets/images/icon-tiempo.svg" alt="icon2">
             <h4>Fácil y conveniente</h4>
         </div>
         <div class="logos-description3">
-            <img class="icon-img" src="../assets/images/icon-eco.svg" alt="icon3">
+            <img class="icon-img" src="./assets/images/icon-eco.svg" alt="icon3">
             <h4>Por un mundo mejor</h4>
         </div>
         <div class="logos-description4">
-            <img class="icon-img" src="../assets/images/icon-facilidad.svg" alt="icon4">
+            <img class="icon-img" src="./assets/images/icon-facilidad.svg" alt="icon4">
             <h4>Mejores rincones de Mallorca</h4>
         </div>
 
@@ -78,7 +78,7 @@ def create_main_page_layout():
                 <li>Galilea</li>
             </ul>
             <video width="550" height="400" controls>
-                <source src="/bicycles-project/assets/images/video_bicycles.mp4" type="video/mp4">
+                <source src="./assets/images/video_bicycles.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
         </div>
@@ -86,9 +86,9 @@ def create_main_page_layout():
 
         <div class="img-routes">
             <img class="img-catedral" class="img-catedral-vert"
-                src="../assets/images/pelayo-arbues-BB_m1hV5zlY-unsplash (1).jpg" alt="image-catedral">
+                src="./assets/images/pelayo-arbues-BB_m1hV5zlY-unsplash (1).jpg" alt="image-catedral">
             <img class="img-catedral, img-catedral-hori"
-                src="../assets/images/yves-alarie-O0xdBP5yCqo-unsplash.jpg" alt="image-catedral2">
+                src="./assets/images/yves-alarie-O0xdBP5yCqo-unsplash.jpg" alt="image-catedral2">
         </div>
     </section>
 

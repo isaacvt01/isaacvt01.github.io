@@ -7,8 +7,8 @@ def create_detail_brand_page_layout(html_content):
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
-                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
-                  <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
+                  <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
+                  <link rel="stylesheet" type="text/css" href="./assets/css/styles_all_bicycles.css">
                   <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
                   <title>Marcas</title>
               </head>
@@ -31,8 +31,8 @@ def create_main_brand_page_layout(html_content):
               <head>
                   <meta charset="UTF-8"/>
                   <meta name="generator" content="PyCharm">
-                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
-                  <link rel="stylesheet" type="text/css" href="../assets/css/styles_brands_bicycles.css">
+                  <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
+                  <link rel="stylesheet" type="text/css" href="./assets/css/styles_brands_bicycles.css">
                   <meta name="description" content="Página donde se encuentran las diferentes marcas de bicicletas">
                   <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
                   <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
@@ -62,7 +62,7 @@ def create_main_brand_page_layout(html_content):
 def create_brands_entry(bic):
     return f"""
                     <div class = "details">
-                        <a href="../{bic['details_link']}">{bic['model']}</a>
+                        <a href="./{bic['details_link']}">{bic['model']}</a>
                     </div>
                 """
 
@@ -73,7 +73,7 @@ def create_brands_layout(brand_name):
     return f"""
                 <div class = "details">
                     <a href="{file_name}">
-                    <img src="../assets/images/brands/{brand_name}.jpg" alt="{brand_name}" class="image">
+                    <img src="./assets/images/brands/{brand_name}.jpg" alt="{brand_name}" class="image">
                     {brand_name}
                 </div>
             """
