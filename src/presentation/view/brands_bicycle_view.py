@@ -10,7 +10,7 @@ def create_detail_brand_page_layout(html_content):
                   <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
                   <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
                   <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
-                  <title> Main Page </title>
+                  <title>Marcas</title>
               </head>
               <body class="body-main_page">
               <header>
@@ -27,13 +27,17 @@ def create_main_brand_page_layout(html_content):
     nav = get_navigation_view()
 
     return f"""<!DOCTYPE html>
-          <html lang="en">
+          <html lang="es">
               <head>
                   <meta charset="UTF-8"/>
+                  <meta name="generator" content="PyCharm">
                   <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
                   <link rel="stylesheet" type="text/css" href="../assets/css/styles_brands_bicycles.css">
+                  <meta name="description" content="Página donde se encuentran las diferentes marcas de bicicletas">
+                  <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
                   <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
-                  <title> Main Page </title>
+                  <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
+                  <title> Marcas </title>
               </head>
               <body class="body-main_page">
               <header>
