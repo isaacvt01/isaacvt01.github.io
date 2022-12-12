@@ -7,7 +7,7 @@ def create_type_entry(type):
     return f"""
                 <div class = "details">
                     <a href="{file_name}">
-                    <img src="../assets/images/types/{type}.jpg" alt="{type}" class="image">
+                    <img src="./assets/images/types/{type}.jpg" alt="{type}" class="image">
                     {type}
                     </a>
                 </div>
@@ -21,8 +21,8 @@ def create_main_type_page_layout(html_content):
           <html lang="es">
               <head>
                   <meta charset="UTF-8"/>
-                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
-                  <link rel="stylesheet" type="text/css" href="../assets/css/styles_types_bicycles.css">
+                  <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
+                  <link rel="stylesheet" type="text/css" href="./assets/css/styles_types_bicycles.css">
                   <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
                   <meta name="generator" content="PyCharm">
                   <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>

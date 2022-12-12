@@ -16,7 +16,7 @@ def create_all_bicycles_page(bicycles):
 
     html = create_bicycles_layout(bicycles_html)
 
-    with open("../dist/bicycles.html", "w", encoding='utf-8') as external_file:
+    with open("../docs/bicycles.html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -26,7 +26,7 @@ def create_detail_pages(bicycles):
         html = create_bicycle_details_layout(bic)
 
         file_name = bic['model'].replace(' ', '-') + bic["id"]
-        with open(f"../dist/details/{file_name}.html", "w", encoding='utf-8') as external_file:
+        with open(f"../docs/details/{file_name}.html", "w", encoding='utf-8') as external_file:
             print(html, file=external_file)
             external_file.close()
 
@@ -34,7 +34,7 @@ def create_detail_pages(bicycles):
 def create_main_page():
     html = create_main_page_layout()
 
-    with open("../dist/index.html", "w", encoding='utf-8') as external_file:
+    with open("../docs/index.html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -42,7 +42,7 @@ def create_main_page():
 def create_form_page():
     html = create_form_page_layout()
 
-    with open("../dist/form.html", "w", encoding='utf-8') as external_file:
+    with open("../docs/form.html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -78,7 +78,7 @@ def create_brand_detail_page(brand, brand_bics):
 
     html = create_detail_brand_page_layout(entries)
 
-    with open("../dist/details_brand/" + trim_type_name(brand) + ".html", "w", encoding='utf-8') as external_file:
+    with open("../docs/details_brand/" + trim_type_name(brand) + ".html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -91,7 +91,7 @@ def create_main_brand_page(brands):
     for bic in brands:
         brand_html += create_brands_layout(bic)
     html = create_main_brand_page_layout(brand_html)
-    with open("../dist/brands_main.html", "w", encoding='utf-8') as external_file:
+    with open("../docs/brands_main.html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -124,7 +124,7 @@ def create_types_bicycle_layout(types):
     for type in types:
         types_html += create_type_entry(type)
     html = create_main_type_page_layout(types_html)
-    with open("../dist/types_main.html", "w", encoding='utf-8') as external_file:
+    with open("../docs/types_main.html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()
 
@@ -136,6 +136,6 @@ def create_type_detail_page(type, type_bics):
 
     html = create_detail_type_page_layout(entries)
 
-    with open("../dist/details_type/" + trim_type_name(type) + ".html", "w", encoding='utf-8') as external_file:
+    with open("../docs/details_type/" + trim_type_name(type) + ".html", "w", encoding='utf-8') as external_file:
         print(html, file=external_file)
         external_file.close()

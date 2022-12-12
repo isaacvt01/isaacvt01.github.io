@@ -12,7 +12,7 @@ def create_main_page_layout():
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/styles_main_page.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles_main_page.css">
     <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
     <meta name="generator" content="PyCharm">
     <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
@@ -31,8 +31,8 @@ def create_main_page_layout():
             <h1>MONGO-BIKE MALLORCA</h1>
             <h1>Reserva tu bicicleta <span>CON NOSOTROS</span></h1>
             <div class="botones">
-                <a href="../dist/form.html" class="button1">REGISTRO</a>
-                <a href="../dist/bicycles.html" target="_blank" class="button2">BICICLETAS DISPONIBLES</a>
+                <a href="./form.html" class="button1">REGISTRO</a>
+                <a href="./bicycles.html" target="_blank" class="button2">BICICLETAS DISPONIBLES</a>
             </div>
         </div>
     </section>

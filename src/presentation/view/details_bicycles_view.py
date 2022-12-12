@@ -11,10 +11,10 @@ def create_bicycle_details_layout(bic):
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
     <meta name="description" content="Aquí podrás leer todos los detalles de la bicicleta deseada">
     <meta name="keywords" content="bicicletas, marcas, orbea, racing, bmc, alquiler, rent, mallorca, bikes, scott foil, cannondale"/>
-    <link rel="stylesheet" type="text/css" href="/bicycles-project/assets/css/styles_details_bicycles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles_details_bicycles.css">
     <meta name="author" content="Isaac Vásquez y Manuel Ortega"/>
     <meta name="generator" content="PyCharm">
     <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@ def create_bicycle_details_layout(bic):
     <div class="content">
         <h1><b>Detalles de <span>{bic["model"]}</span></b></h1>
         <section>
-                <a href="https://www.sanferbike.com/es/" target="_blank"><img src="/assets/images/{bic['image']}" alt="bike-photo"></a>
+                <a href="https://www.sanferbike.com/es/" target="_blank"><img src="./assets/images/{bic['image']}" alt="bike-photo"></a>
             
             <div class="descrip_specifications-details">
                 <p>{bic["model"]}</p>
