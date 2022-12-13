@@ -169,32 +169,23 @@ article {
   input {
     font-size: 18px;
     padding: 10px 10px 10px 5px;
-    display: block;
+    display: flex;
     background: #fafafa;
     color: #636363;
     width: 100%;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid #757575;
+      z-index: 1;
   }
 
   input:focus {
     outline: none;
   }
 
-  /* Label */
 
-  label {
-    color: #999;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition: all 0.2s ease;
-    z-index: 1;
-  }
+
+
 
   /* Underline */
 
@@ -282,6 +273,14 @@ footer{
     color: #00e391;
 }
 
+.nav-menu{
+    z-index: 100;
+}
+nav{
+    z-index: 100;
+}
+
+
 @media screen and (max-width: 1080px) and (min-width: 428px) {
   .first-photo{
     width: 100%;
@@ -315,8 +314,8 @@ form {
   border: 1px solid #ebebeb;
   box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px,
     rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
-}
 
+}
 hgroup {
   text-align: center;
   margin-top: 4em;
@@ -329,6 +328,7 @@ input {
   width: 100%;
   font-size: 23px;
   padding: 30px;
+
 }
 #nombre{
     border-bottom-width: 1px;
@@ -340,4 +340,5 @@ footer{
 .banner-text{
     display: none;
 }
+
 }
