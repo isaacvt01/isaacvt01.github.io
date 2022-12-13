@@ -49,7 +49,7 @@ Executar: pip install -r requirements.txt
 ### Uso
 
 - Para generar HTML se debe utilizar main.py, solo debes ejecutar este archivo y se generarán todos los archivos html.
-- Para llevar a cabo las operaciones CRUD debes ejecutar el archivo run_admin.
+- Para llevar a cabo las operaciones CRUD debes ejecutar el archivo run_admin.py.
   1. Una vez ejecutado, saldrá una pequeña ventana que nos pedirá usuario y contraseña. El usuario es Admin y la contraseña 1234.
   2. Una vez dentro, nos dará a elejir entre las opciones: ***Actualizar, Eliminar, Crear y Leer.***
 

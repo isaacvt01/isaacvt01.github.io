@@ -9,9 +9,11 @@ a {
     background-size: 0% 2px;
     transition: background-size .3s;
 }
+
 a:hover, a:focus {
     background-size: 100% 2px;
 }
+
 /*header*/
 
 * {
@@ -24,10 +26,12 @@ a:hover, a:focus {
     font-family: "Anek Devanagari", sans-serif;
     transition: background-size .3s;
 }
-body{
+
+body {
     z-index: 1;
 }
-header{
+
+header {
     position: fixed;
     margin: 0;
     width: 100%;
@@ -35,7 +39,7 @@ header{
     z-index: 2;
 }
 
-.first-photo{
+.first-photo {
     width: 100%;
     height: 90vh;
     background-image: url(/assets/images/header.jpg);
@@ -92,11 +96,11 @@ nav {
     transition: .3s;
 }
 
-#check:checked~.nav-menu {
+#check:checked ~ .nav-menu {
     height: 100vh;
 }
 
-#check:checked~.nav-menu li {
+#check:checked ~ .nav-menu li {
     display: block;
 }
 
@@ -209,7 +213,7 @@ header {
         margin-right: 15px;
     }
 
-    .nav-container:hover>.nav-menu, .nav-menu:hover {
+    .nav-container:hover > .nav-menu, .nav-menu:hover {
         display: block;
     }
 
@@ -218,40 +222,40 @@ header {
 
 @media screen and (max-width: 1080px) and (min-width: 428px) {
 
-    h1{
+    h1 {
         display: none;
     }
 
-    .botones{
+    .botones {
         display: none;
     }
 
-    .img-catedral{
+    .img-catedral {
         display: none;
     }
 
-    .img-catedral-hori{
+    .img-catedral-hori {
         display: none;
     }
 
-    .routes{
+    .routes {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    ul{
+    ul {
         display: flex;
         margin-left: 0 !important;
         list-style: none;
         justify-content: flex-start !important;
     }
 
-    li{
+    li {
         padding: 20px;
     }
 
-    .catedral{
+    .catedral {
         margin-left: 0px !important;
     }
 
@@ -348,7 +352,6 @@ header {
 }
 
 
-
 .logos-description1 {
     display: flex;
     flex-direction: column;
@@ -426,11 +429,11 @@ h5 {
     border-radius: 10%;
 }
 
-ul{
+ul {
     margin-left: 50px;
 }
 
-.button3{
+.button3 {
     margin-top: 50px;
     margin-right: 40px;
     padding: 10px 30px;
@@ -449,13 +452,13 @@ ul{
 
 /*FOOTER*/
 
-footer{
+footer {
     margin-top: 200px;
     color: white;
     background-color: black;
     text-align: center;
 }
 
-.social-networks{
+.social-networks {
     color: #00e391;
 }

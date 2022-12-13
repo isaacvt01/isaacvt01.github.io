@@ -3,8 +3,7 @@ from src.presentation.view.navigation_view import get_navigation_view
 
 def create_bicycles_layout(html_content):
     nav = get_navigation_view()
-    return f"""
-<!DOCTYPE html>
+    return f"""<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8"/>

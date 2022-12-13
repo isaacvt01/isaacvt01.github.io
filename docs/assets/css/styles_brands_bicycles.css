@@ -17,7 +17,7 @@ body {
 
 /*header*/
 
-header{
+header {
     z-index: 200;
     position: static;
 }
@@ -71,7 +71,8 @@ header{
 }
 
 #brands {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
     padding: 5%;
 }
 
@@ -299,11 +300,15 @@ footer {
         margin-top: 0;
     }
 
+    #brands {
+        grid-template-columns: auto auto;
+    }
+
     footer {
         font-size: 20px;
     }
 
-    .banner-text{
+    .banner-text {
         display: none;
     }
 
