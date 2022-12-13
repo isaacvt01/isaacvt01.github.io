@@ -27,6 +27,7 @@ def delete_data(_id):
         result = bicycles_collection.delete_one(bike_to_delete)
 
         print('Object deleted ' + str(result.deleted_count))
+        return 'Deleted'
 
     except pymongo.errors.ServerSelectionTimeoutError:
         print('Timeout')
