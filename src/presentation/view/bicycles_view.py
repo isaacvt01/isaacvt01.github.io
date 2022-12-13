@@ -18,6 +18,7 @@ def create_bicycles_layout(html_content):
         <title> Todas las bicicletas </title>
     </head>
     <body class="body-main_page">
+        <h1>Todas las bicicletas</h1>
         <header>
             {nav}
         </header>
@@ -44,7 +45,7 @@ def create_all_bicycles_layout(bic):
     return f"""
                 <div class = "details">
                     <a href="{bic['details_link']}"><img class="imagen_main" src="./assets/images/{bic['image']}"></a>
-                    <div>{bic["brand"]}</div>
-                    <div>{bic['model']}</div>
+                    <div class="brand_bike">{bic["brand"]}</div>
+                    <div class="brand_bike">{bic['model']}</div>
                 </div>
             """
