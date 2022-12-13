@@ -42,6 +42,8 @@ Por último, hemos realizado con Tkinter una interfaz gráfica donde se pueden l
 - GitHubPages
 - Mongo DB
 - GIT
+- Pytest
+- Coverage
 
 <div id="instalacion">
 
