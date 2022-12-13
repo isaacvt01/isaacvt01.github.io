@@ -18,10 +18,11 @@ def create_bicycles_layout(html_content):
         <title> Todas las bicicletas </title>
     </head>
     <body class="body-main_page">
-        <h1>Todas las bicicletas</h1>
+        
         <header>
             {nav}
         </header>
+        <h1>Todas las bicicletas</h1>
         <section>
             {html_content}
         </section>
