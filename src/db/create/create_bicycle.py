@@ -29,8 +29,8 @@ def create_data(usage, description, bicycle_type, model, shop_name):
         # We put in the variable result the insertion of the bicycle
         # We print on the screen the id of the inserted document
         result = bicycles_collection.insert_one(new_bicycle)
-
         print('Object inserted ' + str(result.inserted_id))
+        return str(result.inserted_id)
 
     except pymongo.errors.ServerSelectionTimeoutError:
         print('Timeout')

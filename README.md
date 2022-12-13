@@ -25,8 +25,13 @@
 
 ### Introduccion
 El gobierno quiere reducir el número de coches en las calles de Mallorca, y para eso han pensado en crear una red de alquiler de bicicletas.
-Hablar de porque haceis este projecto. Cuál es la finalidad.
-Explicar generar html y que hay una interfaz admin para CRUD bicycles.
+
+Esta es nuestra propuesta para llevar a cabo esa idea. Lo que hemos ideado es un programa en Python que crea archivos HTML conteniendo las bicicletas en la base de datos alojada en MongoAtlas. Hemos creado ficheros CSS para que la página sea visualmente agradable.
+
+Hemos alojado estos ficheros en GitHub Pages para que puedan ser visitados y vistos desde fuera.
+
+Por último, hemos realizado con Tkinter una interfaz gráfica donde se pueden llevar a cabo operaciones CRUD en la base de datos.
+
 
 <div id="tecnologia">
 
@@ -166,10 +171,19 @@ Con el marcado negro indicamos las relaciones entre paquetes y módulos.
 
 <div id="test">
 
-### TEST 
-- cuanto coverage
-- que se ha testeado
-- que no se ha podido testear y porque
+### Test
+- Con nuestros test hemos conseguido un coverage de un 86%
+- Hemos testeado:
+  - Todo lo relacionado con la base de datos, como la conexión a la misma y el CRUD.
+  - La creación de los archivos HTML y su contenido.
+  - Localización y contenido de los archivos HTML
+- No hemos podido testear Tkinter por falta de tiempo.
+
+Aquí se puede ver nuestro `coverage report`
+
+
+![Coverage report](/readme_images/coverage.PNG)
+
 
 
 <div id="clockify">
