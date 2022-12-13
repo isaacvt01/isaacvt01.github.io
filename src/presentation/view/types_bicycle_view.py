@@ -105,7 +105,7 @@ def create_detail_type_page_layout(html_content):
 def create_type_bic_entry(bic):
     return f"""
                     <div class = "details">
-                        <a href="{bic['details_link']}"><img class="imagen_main" src="../assets/images/{bic['image']}"></a>
+                        <a href="../{bic['details_link']}"><img class="imagen_main" src="../assets/images/{bic['image']}"></a>
                         <div>{bic['model']}</div>
                     </div>
                 """
