@@ -1,0 +1,35 @@
+td,th,tr{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #4f4e4e;
+    color: white;
+}
+
+.green{
+    background-color: #00e391;
+    font-weight: bold;
+    color: white;
+}
+
+.time{
+    background-color: black;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
