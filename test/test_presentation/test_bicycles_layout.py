@@ -2,16 +2,16 @@ from src.presentation.view.bicycles_view import create_all_bicycles_layout
 
 
 def test_all_bicycle_entry():
-    bicycles = {
+    bicycle = {
         "model": 'test model',
         "brand": 'test addidas',
         "image": 'image.png',
         "details_link": "details/bici.html",
     }
 
-    html = create_all_bicycles_layout(bicycles)
+    html = create_all_bicycles_layout(bicycle)
 
-    assert bicycles['image'] in html
-    assert bicycles['details_link'] in html
-    assert bicycles['brand'] in html
-    assert bicycles['model'] in html
+    assert bicycle['image'] in html
+    assert bicycle['details_link'] in html
+    assert bicycle['brand'] in html
+    assert bicycle['model'] in html
