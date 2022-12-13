@@ -2,7 +2,6 @@
 
 - [Introducción](#introduccion)
 - [Tecnología](#tecnologia)
-- [Módulos Python](#modulos)
 - [Instalación](#instalacion)
 - [Uso](#uso)
 - [Metodología](#metodologia)
@@ -38,13 +37,6 @@ Explicar generar html y que hay una interfaz admin para CRUD bicycles.
 - GitHubPages
 - Mongo DB
 - GIT
-
-<div id="modulos">
-
-### Modulos Python
-Modules de python, están en requirements.txt
-
-Python: Tkinter, pytest
 
 <div id="instalacion">
 
