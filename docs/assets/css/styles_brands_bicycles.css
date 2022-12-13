@@ -337,7 +337,7 @@ footer {
     }
 
     .image {
-        width: 100%;
+        width: 95%;
     }
 
     #first-brands {
@@ -348,7 +348,8 @@ footer {
         font-size: 20px;
     }
 
-    #bmc {
-        width: 143%;
+    .banner-text{
+        display: none;
     }
+
 }

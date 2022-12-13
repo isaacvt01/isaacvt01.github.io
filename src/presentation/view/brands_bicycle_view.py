@@ -46,7 +46,7 @@ def create_main_brand_page_layout(html_content):
     <section class="first-photo">
         <div class="banner-text">
             <h1>MONGO-BIKE MALLORCA</h1>
-            <h1>Tipos de bicicletas <span>CON LOS QUE CONTAMOS</span></h1>
+            <h1>Marcas <span>CON LAS QUE CONTAMOS</span></h1>
         </div>
     </section>
     <hgroup>

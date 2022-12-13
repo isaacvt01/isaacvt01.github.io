@@ -100,3 +100,24 @@ footer {
     color: #00e391;
 }
 
+@media screen and (max-width: 1080px) and (min-width: 428px){
+
+    b{
+        top: 0;
+        margin-top:0
+
+    }
+    img{
+        width: 70%;
+        height: 85%;
+        margin-left: 15%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
