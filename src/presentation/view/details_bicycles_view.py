@@ -25,7 +25,7 @@ def create_bicycle_details_layout(bic):
     <header>
         {nav}
     </header>
-    <div class="content">
+    <div>
         <h1><b>Detalles de <span>{bic["model"]}</span></b></h1>
         <section>
                 <a href="https://www.sanferbike.com/es/" target="_blank"><img src="../assets/images/{bic['image']}" alt="bike-photo"></a>
