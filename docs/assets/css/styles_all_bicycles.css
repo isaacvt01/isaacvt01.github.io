@@ -37,14 +37,21 @@ section {
 .details:hover{
   transform: scale(1.1);
   border: solid 1px #d0d0d0;
+    z-index: 2;
 }
 
 
 .imagen_main{
-  width: 300px ;
-  height: 250px;
+  width: 100% ;
+  height: 100%;
   object-fit: contain;
 }
+.brand_bike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
 
 /* Header styles */
 *{padding: 0; margin: 0; box-sizing: border-box;}
@@ -54,6 +61,7 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
+    z-index: 4;
 }
 .overlay{
 	width: 100%;
@@ -74,9 +82,9 @@ header {
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 80px;
-	margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 
 h3, p {
@@ -96,6 +104,22 @@ footer {
 
 .social-networks {
     color: #00e391;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 428px){
+
+    section{
+        gap: 33% 33% 33%;
+    }
+    .imagen_main{
+  width: 100% ;
+  height: 100%;
+  object-fit: contain;
+}
+    h1{
+        margin-top:30px ;
+    }
+
 }
 
 

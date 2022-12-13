@@ -304,6 +304,9 @@ footer {
         font-family: "Anek Devanagari", sans-serif;
 
     }
+    .banner-text{
+        display: none;
+    }
 
     .fa-sharp.fa-solid.fa-bars {
         display: block;
@@ -332,7 +335,7 @@ footer {
     }
 
     .image {
-        width: 100%;
+        width: 90%;
     }
 
     #first-type {
