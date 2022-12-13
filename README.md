@@ -46,8 +46,18 @@ Por último, hemos realizado con Tkinter una interfaz gráfica donde se pueden l
 <div id="instalacion">
 
 ### Instalación
-Git clone: nuestro link al git repository
-Executar: pip install -r requirements.txt
+
+Primero se debe clonar el repositorio de GitHub.
+
+`git clone https://github.com/isaacvt01/isaacvt01.github.io.git`
+
+Una vez clonado debemos crear un entorno virtual.
+
+`python3 -m venv venv`
+
+Una vez creado el entorno virtual hay que instalar todas las dependencias necesarias.
+
+`pip install -r requirements.txt`
 
 <div id="uso">
 
