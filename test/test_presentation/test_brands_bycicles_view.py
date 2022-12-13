@@ -13,10 +13,12 @@ def test_create_brands_layout():
 def test_create_brands_entry():
     bic = {
         'details_link': 'details-link.html',
-        'model': 'Model Test'
+        'model': 'Model Test',
+        'image': 'imagen'
     }
 
     html = create_brands_entry(bic)
 
     assert bic['details_link'] in html
     assert bic['model'] in html
+    assert bic['image'] in html
