@@ -21,6 +21,7 @@ def create_bicycles_layout(html_content):
         <header>
             {nav}
         </header>
+            <h1>TODAS LAS BICICLETAS</h1>
         <section>
             {html_content}
         </section>

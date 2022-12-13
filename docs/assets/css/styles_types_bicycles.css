@@ -293,13 +293,6 @@ footer {
     color: #00e391;
 }
 
-.banner-text {
-    padding: 0 30px;
-    text-align: center;
-    color: #fff;
-    margin-top: 0px;
-}
-
 @media screen and (max-width: 1080px) and (min-width: 428px) {
     .first-photo {
         width: 100%;

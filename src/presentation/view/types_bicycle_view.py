@@ -75,6 +75,7 @@ def create_detail_type_page_layout(html_content):
                   <meta charset="UTF-8"/>
                   <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
                   <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
+                  <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
                   <title> Main Page </title>
               </head>
               <body class="body-main_page">
@@ -84,6 +85,18 @@ def create_detail_type_page_layout(html_content):
               <section>
                   {html_content}
               </section>
+              <footer>
+                <hr>
+                <h3>MongoBike</h3>
+                <h4>@MONGO-BIKE</h4>
+                <p>Diseñador web: Isaac Vásquez / Manuel Ortega</p>
+                <p>Aviso legal | Política de privacidad</p>
+                <div class="social-networks">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </footer>
               </body>
           </html>"""
 
