@@ -64,7 +64,7 @@ def create_brands_entry(bic):
     return f"""
                     <div class = "details">
                         
-                        <a href="{bic['details_link']}"><img class="imagen_main" src="../assets/images/{bic['image']}"></a>
+                        <a href="../{bic['details_link']}"><img class="imagen_main" src="../assets/images/{bic['image']}"></a>
                         <div>{bic['model']}</div>
                     </div>
                 """
