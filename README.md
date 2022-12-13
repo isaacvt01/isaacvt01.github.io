@@ -21,7 +21,6 @@ Python: Tkinter, pytest
 Git clone: nuestro link al git repository
 Executar: pip install -r requirements.txt
 
-
 ### Uso
 1. Generar HTML: main.py
 2. Tkinter: run_admin.py
@@ -109,15 +108,9 @@ Como se puede ver en el gráfico, hemos invertido 112h, es una aproximación, ya
 - **Creating tests:** Crear las pruebas necesarias para asegurarnos de que el código hace lo que queremos que haga y que se encuentren el mínimo de bugs posibles.
 - **Documentation:** Crear Readme y diagramas.
 - **Git-Hub Pages:** Arreglar todos los problemas ocasionados por rutas y entender GitHub Pages.
-- 
 
 ![Gráfico Clockify](/readme_images/Clockify.PNG)
 - En que hemos invertido el tiempo
 
 ### Conclusion
-- Puntos fuertes de programa
-- Possibles mejores
 
-### Dificultades
-
-- Organización del tiempo
