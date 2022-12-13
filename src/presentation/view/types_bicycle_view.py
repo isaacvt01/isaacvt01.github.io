@@ -82,7 +82,7 @@ def create_detail_type_page_layout(html_content):
               <header>
               {nav}
               </header>
-              <h1>Todos los tipos</h1>
+              <h1>Nuestras bicicletas</h1>
               <section>
                   {html_content}
               </section>
