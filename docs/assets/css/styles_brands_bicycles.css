@@ -17,6 +17,11 @@ body {
 
 /*header*/
 
+header{
+    z-index: 200;
+    position: static;
+}
+
 * {
     padding: 0;
     margin: 0;

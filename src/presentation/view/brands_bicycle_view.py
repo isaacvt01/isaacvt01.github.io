@@ -7,8 +7,8 @@ def create_detail_brand_page_layout(html_content):
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
-                  <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
-                  <link rel="stylesheet" type="text/css" href="./assets/css/styles_all_bicycles.css">
+                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
+                  <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
                   <script src="https://kit.fontawesome.com/ffade7e96a.js" crossorigin="anonymous"></script>
                   <title>Marcas</title>
               </head>
@@ -62,7 +62,9 @@ def create_main_brand_page_layout(html_content):
 def create_brands_entry(bic):
     return f"""
                     <div class = "details">
-                        <a href="./{bic['details_link']}">{bic['model']}</a>
+                        
+                        <a href="{bic['details_link']}"><img class="imagen_main" src="../assets/images/{bic['image']}"></a>
+                        <div>{bic['model']}</div>
                     </div>
                 """
 

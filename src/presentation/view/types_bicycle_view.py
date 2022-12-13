@@ -73,8 +73,8 @@ def create_detail_type_page_layout(html_content):
           <html lang="en">
               <head>
                   <meta charset="UTF-8"/>
-                  <link rel="stylesheet" type="text/css" href="./assets/css/style_nav.css">
-                  <link rel="stylesheet" type="text/css" href="./assets/css/styles_all_bicycles.css">
+                  <link rel="stylesheet" type="text/css" href="../assets/css/style_nav.css">
+                  <link rel="stylesheet" type="text/css" href="../assets/css/styles_all_bicycles.css">
                   <title> Main Page </title>
               </head>
               <body class="body-main_page">
@@ -91,6 +91,7 @@ def create_detail_type_page_layout(html_content):
 def create_type_bic_entry(bic):
     return f"""
                     <div class = "details">
-                        <a href="./{bic['details_link']}">{bic['model']}</a>
+                        <a href="{bic['details_link']}"><img class="imagen_main" src="../assets/images/{bic['image']}"></a>
+                        <div>{bic['model']}</div>
                     </div>
                 """
