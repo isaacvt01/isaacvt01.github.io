@@ -151,11 +151,14 @@ Nuestra predicción era de un tiempo mucho menor. En el apartado de dificultades
 
 ### Conclusion
 - Puntos fuertes del programa
+
   - Rápido y fiable: Hemos puesto muchas horas para que la aplicación sea lo más eficiente posible
   - Variable de entorno: En vez de tener toda la información sensible de la conexión a la base de datos, hemos creado una variable de entorno y la llamamos desde la URI de MongoAtlas.
   - Actualizacion y despliegue facil de los archivos html.
   - Creemos tener un código bien organizado.
+  
 - Posibles mejores
+
   - Creación de funciones: Nos hemos dado cuenta de que podríamos haber creado más funciones para introducirlas en nuestros archivos HTML, ya que utilizamos las mismas partes en diferentes páginas y viera quedado un codigo más limpio, como por ejemplo el footer. 
   - Realizar la colección de tiendas: Nuestro plan era realizar en la base de datos una colección llamada tiendas, con diferentes tiendas en Mallorca, pero por falta de tiempo, hemos decidido no incluirla.
   - Administración de tiempo: Empezamos con el proyecto enseguida que se nos comunicó y decidimos hacerlo con librerías y modulos de python. Al explicarnos por completo el proyecto, se nos dijo que no podíamos utilizar dichas librerías y tuvimos que refactorizar todo el proyecto.
