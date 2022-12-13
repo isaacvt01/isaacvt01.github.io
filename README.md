@@ -9,7 +9,7 @@
   - [Python](#python)
   - [MongoDB](#mongodb)
   - [HTML y CSS](#html)
--[Requisitos](#requisitos)
+[Requisitos](#requisitos)
 - [Descripción técnica](#descripcion-tecnica)
   - [Arquitectura del programa](#arquitectura)
   - [Estructura del programa](#estructura)
