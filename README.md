@@ -202,7 +202,7 @@ Nuestra predicción era de un tiempo mucho menor. En el apartado de dificultades
 
 <div id="conclusion">
 
-### Conclusion
+### Conclusión
 
 <div id="puntos-fuertes">
 
@@ -210,14 +210,14 @@ Nuestra predicción era de un tiempo mucho menor. En el apartado de dificultades
 
   - Rápido y fiable: Hemos puesto muchas horas para que la aplicación sea lo más eficiente posible
   - Variable de entorno: En vez de tener toda la información sensible de la conexión a la base de datos, hemos creado una variable de entorno y la llamamos desde la URI de MongoAtlas.
-  - Actualizacion y despliegue facil de los archivos html.
+  - Actualización y despliegue facil de los archivos html.
   - Creemos tener un código bien organizado.
   
 <div id="posibles-mejoras">
 
-- Posibles mejores
+- Posibles mejoras
 
-  - Creación de funciones: Nos hemos dado cuenta de que podríamos haber creado más funciones para introducirlas en nuestros archivos HTML, ya que utilizamos las mismas partes en diferentes páginas y viera quedado un codigo más limpio, como por ejemplo el footer. 
+  - Creación de funciones: Nos hemos dado cuenta de que podríamos haber creado más funciones para introducirlas en nuestros archivos HTML, ya que utilizamos las mismas partes en diferentes páginas y hubiera quedado un codigo más limpio, como por ejemplo el footer. 
   - Realizar la colección de tiendas: Nuestro plan era realizar en la base de datos una colección llamada tiendas, con diferentes tiendas en Mallorca, pero por falta de tiempo, hemos decidido no incluirla.
   - Administración de tiempo: Empezamos con el proyecto enseguida que se nos comunicó y decidimos hacerlo con librerías y modulos de python. Al explicarnos por completo el proyecto, se nos dijo que no podíamos utilizar dichas librerías y tuvimos que refactorizar todo el proyecto.
   - Invertir más tiempo en el diseño: Nos viera gustado realizar nuestro front-end de mejor manera, pero al final hemos querido cumplir con los requisitos que se pedían y invertir más tiempo en el back-end, documentación, etc.
@@ -228,11 +228,11 @@ Nuestra predicción era de un tiempo mucho menor. En el apartado de dificultades
 
 ### Dificultades
 
-- Tkinter: Hemos tenido que estudiar como funciona Tkinter con Python y saber elaborar la interfaz gráfica para realizar el CRUD
-- Pymongo: Hemos tenido que estudiar como funciona pymongo para poder extraer los datos que tenemos en nuestra base de datos.
-- Realización de tests:
-- Git y github: git nos a dado bastantes, problemas ya que no sabíamos exactamente como trabajar con ello y al principio cometimos bastantes errores, por ejemplo trabajamos en los mismos directorios y archivos y eso nos creaba conflictos a la hora de hacer un push. Con github hemos tenido más facilidades ya que lo estuvimos tocando en el FP medio para subir los proyectos que realizabamos.
+- Tkinter: Hemos tenido que estudiar cómo funciona Tkinter con Python y saber elaborar la interfaz gráfica para realizar el CRUD.
+- Pymongo: Hemos tenido que estudiar cómo funciona pymongo para poder extraer los datos que tenemos en nuestra base de datos.
+- Realización de tests
+- Git y github: git nos ha dado bastantes problemas, ya que no sabíamos exactamente cómo trabajar con ello y al principio cometimos bastantes errores, por ejemplo trabajamos en los mismos directorios y archivos y eso nos creaba conflictos a la hora de hacer un push. Con GitHub hemos tenido más facilidades ya que lo estuvimos tocando en el FP medio para subir los proyectos que realizábamos.
 - Problemas con las rutas del entorno local y el entorno prod: Las mismas rutas no nos iban bien en los dos entornos. Hemos tenido que simular un entorno prod con un servidor web local. Para ello hemos usado el servidor http que viene por defecto con python: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server 
-- Github pages: Hemos tenido que reorganizar algunas carpetas para hacer un desploy correcto en Github Pages. Aparte de esto, hemos tenido que corregir los link en la pagina porque estaban rotos.
-- Organización del tiempo: Al ser el primer proyecto grande que haciamos, consideramos que podríamos haber tenido una mejor organización del tiempo.
-- Encoder UTF-8: Dedicamos más del tiempo esperado para esto, ya que no era un problema de HTML y era un trozo de codigo que teníamos que añadir en el page_builder al crear nuestras páginas HTML
+- Github pages: Hemos tenido que reorganizar algunas carpetas para hacer un deploy correcto en Github Pages. Aparte de esto, hemos tenido que corregir los link en la página porque estaban rotos.
+- Organización del tiempo: Al ser el primer proyecto grande que hacíamos, consideramos que podríamos haber tenido una mejor organización del tiempo.
+- Encoder UTF-8: Dedicamos más del tiempo esperado para esto, ya que no era un problema de HTML y era un trozo de codigo que teníamos que añadir en el page_builder al crear nuestras páginas HTML.
