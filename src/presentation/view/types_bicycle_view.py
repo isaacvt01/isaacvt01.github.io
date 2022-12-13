@@ -81,7 +81,8 @@ def create_detail_type_page_layout(html_content):
               <body class="body-main_page">
               <header>
               {nav}
-              <header>
+              </header>
+              <h1>Todos los tipos</h1>
               <section>
                   {html_content}
               </section>

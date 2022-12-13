@@ -15,7 +15,8 @@ def create_detail_brand_page_layout(html_content):
               <body class="body-main_page">
               <header>
               {nav}
-              <header>
+              </header>
+              <h1>Nuestras bicicletas</h1>
               <section>
                   {html_content}
               </section>
