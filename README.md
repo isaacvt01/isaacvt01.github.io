@@ -121,10 +121,6 @@ Con el marcado negro indicamos las relaciones entre paquetes y módulos.
 
 `docs` fichero donde se encuentran los diferentes archivos html y css.
 
-- db, logic, presentasion
-    - que rol tiene cada folder
-    - como estan relacionados
-
 ### TEST 
 - cuanto coverage
 - que se ha testeado
