@@ -89,6 +89,15 @@ Links de los validadores:
 - CSS: https://jigsaw.w3.org/css-validator/
 - HTML: https://validator.w3.org/
 
+Hemos utilizado Git para subir nuestro repositorio a GitHub.
+
+Las ramas que hemos utilizado han sido:
+
+- `main:` Esta es nuestra rama principal, aquí solo hacíamos push cuando todo estaba testeado y en perfecto funcionamiento.
+-`develop:` En esta es en la que subimos los cambios ya mergeados. Intentamos no hacer push directamente en esta.
+-`changes:` Esta es la rama en la que hacemos los cambios de HTML y CSS sobre todo.
+-`feature:` Esta es la rama en la que hacemos los cambios generales de código de backdend. 
+
 <div id="implementacion">
 
 ## Implementación
