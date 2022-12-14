@@ -28,4 +28,4 @@ def git_push():
         return comand_subprocess.returncode
 
     except subprocess.SubprocessError:
-        print('El comando commit no ha sido ejecutado correctamente.')
+        print('El comando push no ha sido ejecutado correctamente.')
