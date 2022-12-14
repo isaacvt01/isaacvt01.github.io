@@ -93,10 +93,11 @@ Hemos utilizado Git para subir nuestro repositorio a GitHub.
 
 Las ramas que hemos utilizado han sido:
 
-- `main:` Esta es nuestra rama principal, aquí solo hacíamos push cuando todo estaba testeado y en perfecto funcionamiento.
+-`main:` Esta es nuestra rama principal, aquí solo hacíamos push cuando todo estaba testeado y en perfecto funcionamiento.
 -`develop:` En esta es en la que subimos los cambios ya mergeados. Intentamos no hacer push directamente en esta.
 -`changes:` Esta es la rama en la que hacemos los cambios de HTML y CSS sobre todo.
 -`feature:` Esta es la rama en la que hacemos los cambios generales de código de backdend. 
+-`release_1.0:` Esta es la rama en la que tenemos la entrega del producto final. Es la 1.0 porque tenemos decidido hacer una serie de cambios para cumplir los requisitos principales del programa.
 
 <div id="implementacion">
 
