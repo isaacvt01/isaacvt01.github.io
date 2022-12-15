@@ -1,35 +1,42 @@
-td,th,tr{
+td, th, tr {
     border: 2px solid black;
     padding: 10px;
     text-align: center;
 }
 
-th{
+th {
     background-color: #4f4e4e;
     color: white;
 }
 
-.green{
+.green {
     background-color: #00e391;
     font-weight: bold;
     color: white;
 }
 
-.time{
+.time {
     background-color: black;
 }
 
-table{
+table {
     display: flex;
     justify-content: center;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
 }
 
-p{
+p {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 428px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
 }

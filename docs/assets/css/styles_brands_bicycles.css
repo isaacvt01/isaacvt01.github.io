@@ -17,6 +17,11 @@ body {
 
 /*header*/
 
+header {
+    z-index: 200;
+    position: static;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -66,7 +71,8 @@ body {
 }
 
 #brands {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
     padding: 5%;
 }
 
@@ -161,52 +167,6 @@ hgroup {
     color: #000000;
 }
 
-form {
-    width: 600px;
-    margin: 4em auto;
-    padding: 3em 2em 2em 2em;
-    background: #fafafa;
-    border: 1px solid #ebebeb;
-    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px,
-    rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
-}
-
-.group {
-    position: relative;
-    margin-bottom: 45px;
-}
-
-input {
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    background: #fafafa;
-    color: #636363;
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid #757575;
-}
-
-input:focus {
-    outline: none;
-}
-
-/* Label */
-
-label {
-    color: #999;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
-    transition: all 0.2s ease;
-    z-index: 1;
-}
-
-/* Underline */
 
 .bar {
     position: relative;
@@ -327,28 +287,29 @@ footer {
         font-size: 20px;
     }
 
-    #brands {
-        flex-wrap: wrap;
-    }
-
     .details {
         margin-top: 30%;
         font-size: 35px;
     }
 
     .image {
-        width: 100%;
+        width: 95%;
     }
 
     #first-brands {
         margin-top: 0;
     }
 
+    #brands {
+        grid-template-columns: auto auto;
+    }
+
     footer {
         font-size: 20px;
     }
 
-    #bmc {
-        width: 143%;
+    .banner-text {
+        display: none;
     }
+
 }

@@ -2,7 +2,7 @@ def get_navigation_view():
     return '''
             <nav class="menu">
             <div>
-                <img class="logo" src="./assets/images/logo2.png" alt="imagen-logo">
+                <img class="logo" src="/assets/images/logo2.png" alt="imagen-logo">
             </div>
             <div class="nav-container">
                 <ul class="nav-menu">

@@ -10,81 +10,126 @@
     transition: background-size .3s;
 }
 
-body{
-	z-index: 1;
+body {
+    z-index: 1;
 }
 
 section {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  align-items: center;
-  justify-content: center;
-  transition: .2s;
-  border-radius: 2px;
-  margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    border-radius: 2px;
+    margin-top: 100px;
 
 }
 
 .details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.5s;
-	margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    margin: 10px;
 }
 
-.details:hover{
-  transform: scale(1.1);
-  border: solid 1px #d0d0d0;
+.details:hover {
+    transform: scale(1.1);
+    border: solid 1px #d0d0d0;
+    z-index: 2;
 }
 
 
-.imagen_main{
-  width: 300px ;
-  height: 250px;
-  object-fit: contain;
+.imagen_main {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.brand_bike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* Header styles */
-*{padding: 0; margin: 0; box-sizing: border-box;}
-header {
-	text-align: center;
-	width: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.overlay{
-	width: 100%;
-	padding: 50px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
+
+header {
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 4;
+}
+
+.overlay {
+    width: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
 
 }
 
 .overlay {
-	border-radius: 0 0 20% 20% / 30%;
-	background-image:url(/assets/images/image_background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-	height: 100%;
+    border-radius: 0 0 20% 20% / 30%;
+    background-image: url(/assets/images/image_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 100%;
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 80px;
-	margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 
 h3, p {
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
 }
 
+
+/*FOOTER*/
+footer {
+    margin-top: 200px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.social-networks {
+    color: #00e391;
+}
+
+@media screen and (max-width: 1080px) and (min-width: 428px) {
+
+    section {
+        grid-template-columns: auto auto auto;
+    }
+
+    .imagen_main {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+}
 
 
 

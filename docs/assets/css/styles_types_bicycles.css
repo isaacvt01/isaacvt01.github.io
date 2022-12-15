@@ -293,13 +293,6 @@ footer {
     color: #00e391;
 }
 
-.banner-text {
-    padding: 0 30px;
-    text-align: center;
-    color: #fff;
-    margin-top: 0px;
-}
-
 @media screen and (max-width: 1080px) and (min-width: 428px) {
     .first-photo {
         width: 100%;
@@ -310,6 +303,10 @@ footer {
         background-size: cover;
         font-family: "Anek Devanagari", sans-serif;
 
+    }
+
+    .banner-text {
+        display: none;
     }
 
     .fa-sharp.fa-solid.fa-bars {
@@ -330,7 +327,8 @@ footer {
     }
 
     #types {
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto
     }
 
     .details {
@@ -339,7 +337,7 @@ footer {
     }
 
     .image {
-        width: 100%;
+        width: 90%;
     }
 
     #first-type {
