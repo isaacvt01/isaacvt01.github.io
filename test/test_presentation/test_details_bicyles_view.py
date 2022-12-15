@@ -1,6 +1,8 @@
 from src.presentation.view.details_bicycles_view import create_bicycle_details_layout
+import pytest
 
 
+@pytest.mark.create_bicycle_details_layout
 def test_create_bicycle_details_layout():
     bicycle = {
         "model": 'test model',

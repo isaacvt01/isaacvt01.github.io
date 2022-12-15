@@ -1,6 +1,8 @@
 from src.presentation.view.types_bicycle_view import create_type_entry
+import pytest
 
 
+@pytest.mark.create_type_bic_entry
 def test_create_type_bic_entry():
     type_name = 'Testtype'
 

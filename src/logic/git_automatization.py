@@ -29,3 +29,4 @@ def git_push():
 
     except subprocess.SubprocessError:
         print('El comando push no ha sido ejecutado correctamente.')
+
