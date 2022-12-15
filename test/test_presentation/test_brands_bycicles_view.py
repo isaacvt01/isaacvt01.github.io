@@ -1,6 +1,9 @@
+import pytest
+
 from src.presentation.view.brands_bicycle_view import create_brands_layout, create_brands_entry
 
 
+@pytest.mark.create_brands_layout
 def test_create_brands_layout():
     brand_name = 'Adidas'
 
@@ -10,6 +13,7 @@ def test_create_brands_layout():
     assert f'./assets/images/brands/{brand_name}.jpg' in html
 
 
+@pytest.mark.create_brands_entry
 def test_create_brands_entry():
     bic = {
         'details_link': 'details-link.html',

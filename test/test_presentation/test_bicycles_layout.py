@@ -1,6 +1,8 @@
 from src.presentation.view.bicycles_view import create_all_bicycles_layout
+import pytest
 
 
+@pytest.mark.all_bicycle_entry
 def test_all_bicycle_entry():
     bicycle = {
         "model": 'test model',
